@@ -4,9 +4,298 @@
   "repository": "Tests4gptplay/chat-agent-harness-records",
   "records": {
     "planner-hybrid-control-082": {
-      "path": "records/planner-hybrid-control-082/archive.json",
-      "archive_commit": "0b246f6fd65d4d03c836c78b7c8bf713758bcf10",
-      "status": "ARCHIVED"
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cold-history-sweep-20260922": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "kind": "repository_cold_history_sweep"
+    },
+    "blender-retro-camera-001": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah-dom-single-shot-001": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah-dom-single-shot-002": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah-dom-single-shot-003": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah-dom-single-shot-004": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah-migration-final-lane00": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah-migration-final-lane01": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah-normal-task-path-20260920": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah-three-context-smoke-20260920": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah-three-context-smoke-lane00": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah-three-context-smoke-lane01": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "cah69-release-note-lane00": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "codex-skill-import-001": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "foreground-terminal-consume-079": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "foreground-terminal-consume-079-impl": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "gah-self-audit-bootstrap-001": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "gah050-model-compat-lane01": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "gah050-model-lane01": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "gah050-model-review-lane01": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "gah050-parallel-lane01": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "gah050-parallel-review-lane01": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "gah050-scheduling-lane00": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "gah050-semantic-lane00": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "gah050-transport-lane00": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "gah050-transport-review-lane00": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "lane-01-deployment-readback-001": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "planner-hybrid-control-082-p1": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "planner-hybrid-control-082-p2": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "planner-hybrid-control-082-phase-a-g1": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "scheduler-ack-smoke-20260918": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "scheduler-wait-result-smoke-20260918": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "task-cell-admission-076": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ue-mod-quicklook-001": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ue-mod-quicklook-001-lane00": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ue-mod-quicklook-001-lane01": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ue-mod-quicklook-001-reducer": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ue-mod-quicklook-feasibility-001": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ue-mod-quicklook-showcase-002": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ueql002-camera-prep": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ueql002-camera-repair": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ueql002-successor-integration": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ueql002-viewer-prep": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "ue-quicklook-taskcell-resume-20260920": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "zhihu-3d-ai-review-001": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "zhihu-3d-ai-review-002": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "zhihu-3d-ai-review-003": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
+    },
+    "zhihu-3d-ai-review-004": {
+      "path": "records/cold-history-sweep-20260922/archive.json",
+      "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
+      "status": "ARCHIVED",
+      "archive_id": "cold-history-sweep-20260922"
     }
   }
 }
