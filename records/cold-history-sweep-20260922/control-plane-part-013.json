@@ -1,0 +1,86 @@
+{
+  "v": 1,
+  "kind": "cah_cold_history_control_bundle",
+  "archive_id": "cold-history-sweep-20260922",
+  "part": 13,
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_main_sha": "6841ee34960a3d8b2518b11cd2404d689bca5bb1",
+  "item_count": 15,
+  "items": [
+    {
+      "source_path": "tasks/task-cell-admission-076.json",
+      "source_blob_sha": "d6dc6107ffc6d402a902a2204d2198865d47c5e1",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"task-cell-admission-076\",\n  \"tracking_issue\": 76,\n  \"status\": \"SUPERSEDED\",\n  \"outcome\": \"Mandatory all-role admission was retired by later user policy.\",\n  \"current_policy_ref\": \"docs/TASK_CELL_ADMISSION.md\",\n  \"retained_capabilities\": [\n    \"Distinct task/epoch/role conversation bootstrap and binding from PR #78.\",\n    \"Bound-role prompting for Planner, Watchdog and Helper.\",\n    \"Task/epoch/generation/fence checks for managed execution.\"\n  ],\n  \"current_execution_model\": {\n    \"direct_bounded\": \"allowed\",\n    \"managed_task_cell\": \"Planner-led\",\n    \"watchdog\": \"optional low-duty observer\",\n    \"helper\": \"on-demand expert\"\n  },\n  \"historical_refs\": [\n    \"tasks/task-cell-admission-076.bootstrap.json\",\n    \"evidence/task-cell-admission-076/bootstrap-transport.json\",\n    \"PR #77\",\n    \"PR #78\"\n  ]\n}\n"
+    },
+    {
+      "source_path": "tasks/ue-mod-quicklook-001-lane00.json",
+      "source_blob_sha": "dbcccc9027d5b117f04159acac30b31529f8211c",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ue-mod-quicklook-001-lane00\",\n  \"parent_task_id\": \"ue-mod-quicklook-001\",\n  \"status\": \"SUPERSEDED\",\n  \"superseded_by\": \"ue-mod-quicklook-showcase-002\",\n  \"replacement_task_ref\": \"tasks/ue-mod-quicklook-showcase-002.json\",\n  \"replacement_result_ref\": \"cases/ue-mod-quicklook-showcase-002/final_result.json\",\n  \"history_ref\": \"git history of tasks/ue-mod-quicklook-001-lane00.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/ue-mod-quicklook-001-lane01.json",
+      "source_blob_sha": "ff5886b303e1c85485df642c56f318395a42c3c8",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ue-mod-quicklook-001-lane01\",\n  \"parent_task_id\": \"ue-mod-quicklook-001\",\n  \"status\": \"SUPERSEDED\",\n  \"superseded_by\": \"ue-mod-quicklook-showcase-002\",\n  \"replacement_task_ref\": \"tasks/ue-mod-quicklook-showcase-002.json\",\n  \"replacement_result_ref\": \"cases/ue-mod-quicklook-showcase-002/final_result.json\",\n  \"history_ref\": \"git history of tasks/ue-mod-quicklook-001-lane01.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/ue-mod-quicklook-001-reducer.json",
+      "source_blob_sha": "ea3e5b85954aa5dc7e4d5a068b01903817972450",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ue-mod-quicklook-001-reducer\",\n  \"parent_task_id\": \"ue-mod-quicklook-001\",\n  \"status\": \"SUPERSEDED\",\n  \"superseded_by\": \"ue-mod-quicklook-showcase-002\",\n  \"replacement_task_ref\": \"tasks/ue-mod-quicklook-showcase-002.json\",\n  \"replacement_result_ref\": \"cases/ue-mod-quicklook-showcase-002/final_result.json\",\n  \"history_ref\": \"git history of tasks/ue-mod-quicklook-001-reducer.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/ue-mod-quicklook-001.json",
+      "source_blob_sha": "dbfd7d50f8c477b14dfad69de1397021a7dbfac5",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ue-mod-quicklook-001\",\n  \"parent_task_id\": null,\n  \"status\": \"SUPERSEDED\",\n  \"superseded_by\": \"ue-mod-quicklook-showcase-002\",\n  \"replacement_task_ref\": \"tasks/ue-mod-quicklook-showcase-002.json\",\n  \"replacement_result_ref\": \"cases/ue-mod-quicklook-showcase-002/final_result.json\",\n  \"history_ref\": \"git history of tasks/ue-mod-quicklook-001.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/ue-mod-quicklook-feasibility-001.json",
+      "source_blob_sha": "d9922986b0f51b130baab120ef5c12d0c131f53c",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ue-mod-quicklook-feasibility-001\",\n  \"status\": \"SUPERSEDED\",\n  \"backend_cl\": \"cl/ue-mod-quicklook-feasibility-001.backend.json\",\n  \"result_ref\": \"cases/ue-mod-quicklook-001/evidence/stage_minus_1_result.json\",\n  \"replacement_task_ref\": \"tasks/ue-mod-quicklook-showcase-002.json\",\n  \"history_ref\": \"git history of tasks/ue-mod-quicklook-feasibility-001.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/ue-mod-quicklook-showcase-002.json",
+      "source_blob_sha": "06ac4ce05f919877f92be65c8cde66bd6c1d07ea",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ue-mod-quicklook-showcase-002\",\n  \"kind\": \"showcase\",\n  \"status\": \"DONE\",\n  \"result_ref\": \"cases/ue-mod-quicklook-showcase-002/final_result.json\",\n  \"display_acceptance_ref\": \"cases/ue-mod-quicklook-showcase-002/display-acceptance.json\",\n  \"interaction_acceptance_ref\": \"cases/ue-mod-quicklook-showcase-002/interaction-acceptance.json\",\n  \"launcher\": \"E:\\\\CAH-Deliverables\\\\UEQuickLook\\\\Showcase002\\\\Start_Camera_Viewer.bat\",\n  \"history_ref\": \"git history of tasks/ue-mod-quicklook-showcase-002.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/ue-quicklook-taskcell-resume-20260920.json",
+      "source_blob_sha": "6cbee977d24ee43c47459bbf379d5f738d293d66",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ue-quicklook-taskcell-resume-20260920\",\n  \"status\": \"DONE\",\n  \"outcome\": \"Historical resume bootstrap completed as part of ue-mod-quicklook-showcase-002.\",\n  \"parent_task_ref\": \"tasks/ue-mod-quicklook-showcase-002.json\",\n  \"final_result_ref\": \"cases/ue-mod-quicklook-showcase-002/final_result.json\",\n  \"interaction_acceptance_ref\": \"cases/ue-mod-quicklook-showcase-002/interaction-acceptance.json\",\n  \"history_ref\": \"git history of tasks/ue-quicklook-taskcell-resume-20260920.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/ueql002-camera-prep.json",
+      "source_blob_sha": "e740ba0c193cc07840d8c676e35d939a41914273",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ueql002-camera-prep\",\n  \"parent_task_id\": \"ue-mod-quicklook-showcase-002\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/ueql002-camera-prep.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/709ecb31220bdeedb5bba373f07d19140d03e5d8/cases/ue-mod-quicklook-showcase-002/work/lane-01/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-ueql002-camera-prep-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-ueql002-camera-prep-g1-20260920\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/ueql002-camera-prep.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/ueql002-camera-repair.json",
+      "source_blob_sha": "242185045b21ba38476ac9970469236234c1deb2",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ueql002-camera-repair\",\n  \"parent_task_id\": \"ue-mod-quicklook-showcase-002\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/ueql002-camera-repair.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/14bb172d02bbb9ea942f46fc6ea007b32fb6b425/cases/ue-mod-quicklook-showcase-002/work/lane-01/repair-a1/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-ueql002-camera-repair-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-ueql002-camera-repair-g1-20260920\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/ueql002-camera-repair.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/ueql002-successor-integration.json",
+      "source_blob_sha": "6154a723fed851d30f8c91dde0040c53a38bae0d",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ueql002-successor-integration\",\n  \"parent_task_id\": \"ue-mod-quicklook-showcase-002\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/ueql002-successor-integration.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/caaddde33e9bb681aaf83b032f5ce322688aed13/cases/ue-mod-quicklook-showcase-002/work/lane-00/integration/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-ueql002-successor-integration-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-ueql002-successor-integration-g1-20260920\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/ueql002-successor-integration.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/ueql002-viewer-prep.json",
+      "source_blob_sha": "b00ba9e2f9b13155d626f25ee6f8ae0989d128d4",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"ueql002-viewer-prep\",\n  \"parent_task_id\": \"ue-mod-quicklook-showcase-002\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/ueql002-viewer-prep.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/93fadef2f9c3fd48bd970693acb655f7e18b564d/cases/ue-mod-quicklook-showcase-002/work/lane-00/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-ueql002-viewer-prep-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-ueql002-viewer-prep-g1-20260920\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/ueql002-viewer-prep.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/zhihu-3d-ai-review-002.json",
+      "source_blob_sha": "834a09657c9beb18ac5351a5e8a681c9e978ddf6",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"zhihu-3d-ai-review-002\",\n  \"status\": \"ERROR\",\n  \"foreground_cl\": \"cl/zhihu-3d-ai-review-002.foreground.json\",\n  \"result_ref\": \"results/zhihu-3d-ai-review-002.json\",\n  \"history_ref\": \"git history of tasks/zhihu-3d-ai-review-002.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/zhihu-3d-ai-review-003.json",
+      "source_blob_sha": "183aee3e175db1c21a20990691316e3ef012979b",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"zhihu-3d-ai-review-003\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/zhihu-3d-ai-review-003.backend.json\",\n  \"result_ref\": \"results/zhihu-3d-ai-review-003.analysis.json\",\n  \"history_ref\": \"git history of tasks/zhihu-3d-ai-review-003.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/zhihu-3d-ai-review-004.json",
+      "source_blob_sha": "d5aa709a50d2925e2bf599177993f1a6ae9adbe0",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"zhihu-3d-ai-review-004\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/zhihu-3d-ai-review-004.backend.json\",\n  \"result_ref\": \"results/zhihu-3d-ai-review-004.analysis.json\",\n  \"history_ref\": \"git history of tasks/zhihu-3d-ai-review-004.json\"\n}\n"
+    }
+  ]
+}
