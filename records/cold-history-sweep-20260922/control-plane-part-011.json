@@ -1,0 +1,86 @@
+{
+  "v": 1,
+  "kind": "cah_cold_history_control_bundle",
+  "archive_id": "cold-history-sweep-20260922",
+  "part": 11,
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_main_sha": "6841ee34960a3d8b2518b11cd2404d689bca5bb1",
+  "item_count": 15,
+  "items": [
+    {
+      "source_path": "tasks/cah-migration-final-lane01.json",
+      "source_blob_sha": "0c13edd74c8ac51f9eed0cf3c2dc82c66872c356",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"cah-migration-final-lane01\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/cah-migration-final-lane01.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/77243c2e7a472b0eb89e7e347f8f3b361b07999c/cases/cah-migration-final-20260920/lane-01/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-cah-migration-final-lane01-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-cah-migration-final-lane01-g1-20260920\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/cah-migration-final-lane01.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/cah-normal-task-path-20260920.json",
+      "source_blob_sha": "474c607e9d3443b21ce438e0d29198d4528978a8",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"cah-normal-task-path-20260920\",\n  \"kind\": \"maintenance\",\n  \"tracking_issue\": 69,\n  \"status\": \"DONE\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/83b92f964c35c56f144934781e854fc324a607b5/evidence/cah-normal-path-20260920/final.json\",\n  \"history_ref\": \"git history of tasks/cah-normal-task-path-20260920.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/cah-three-context-smoke-20260920.json",
+      "source_blob_sha": "b5e1e526f2ad1ccc0417f73cb770ca9161e3209c",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"cah-three-context-smoke-20260920\",\n  \"status\": \"DONE\",\n  \"final_ref\": \"evidence/cah-three-context-smoke-20260920/final.json\",\n  \"lane_tasks\": [\n    \"tasks/cah-three-context-smoke-lane00.json\",\n    \"tasks/cah-three-context-smoke-lane01.json\"\n  ],\n  \"history_ref\": \"git history of tasks/cah-three-context-smoke-20260920.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/cah-three-context-smoke-lane00.json",
+      "source_blob_sha": "726167c6484b088e4e3ff8110dbb82d4e4c55d8d",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"cah-three-context-smoke-lane00\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/cah-three-context-smoke-lane00.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/14b3423d1cb15a024adcdf70c1812a7dcfa9fa8e/cases/cah-three-context-smoke-20260920/lane-00/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-cah-smoke-lane00-20260920\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-cah-smoke-lane00-20260920\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/cah-three-context-smoke-lane00.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/cah-three-context-smoke-lane01.json",
+      "source_blob_sha": "9d131c20ab02830e201005dfe0c077f5d7236117",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"cah-three-context-smoke-lane01\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/cah-three-context-smoke-lane01.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/01e87cf90c43c9ac131df37ad0845eaea88d1e25/cases/cah-three-context-smoke-20260920/lane-01/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-cah-smoke-lane01-20260920\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-cah-smoke-lane01-20260920\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/cah-three-context-smoke-lane01.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/cah69-release-note-lane00.json",
+      "source_blob_sha": "384e476e32fe724bde011b61dfd1711d311a1081",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"cah69-release-note-lane00\",\n  \"parent_task_id\": \"cah69-release-note\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/cah69-release-note-lane00.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/5209621eb3eaf3d5d761c743854e278441616fd1/cases/cah-normal-path-20260920/one-lane/branch_result.json\",\n  \"artifact_ref\": \"github://Tests4gptplay/git-agent-harness/5209621eb3eaf3d5d761c743854e278441616fd1/cases/cah-normal-path-20260920/one-lane/release-note.zh.md\",\n  \"history_ref\": \"git history of tasks/cah69-release-note-lane00.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/codex-skill-import-001.json",
+      "source_blob_sha": "7109dabcf2f7fd43fc150c0e2881aaaaa6bae5fb",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"codex-skill-import-001\",\n  \"kind\": \"codex_skill_reconcile\",\n  \"status\": \"SUPERSEDED\",\n  \"outcome\": \"Initial full reconcile failed; later incremental Codex Skill sync succeeded and owns current state.\",\n  \"initial_result_ref\": \"results/codex-skill-import-001.json\",\n  \"current_index_ref\": \"skills/index.json\",\n  \"superseded_by_commit\": \"d499a9d7c62544a782efa22d6ea7920fb6267432\",\n  \"workflow_ref\": \".github/workflows/codex-skill-sync.yml\",\n  \"history_ref\": \"git history of tasks/codex-skill-import-001.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/foreground-terminal-consume-079-impl.json",
+      "source_blob_sha": "77ae6399ec273dacb3c092e32c2ccbb435f1fc70",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"foreground-terminal-consume-079-impl\",\n  \"parent_task_id\": \"foreground-terminal-consume-079\",\n  \"tracking_issue\": 79,\n  \"status\": \"DONE\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"work_branch\": \"work/foreground-terminal-consume-079-impl\",\n  \"result_ref\": \"cases/foreground-terminal-consume-079/implementation/branch_result.json\",\n  \"integrated_by_pr\": 83,\n  \"merge_commit\": \"fba48d05264855859423c2c6ea27fc8b6af5b30f\"\n}\n"
+    },
+    {
+      "source_path": "tasks/foreground-terminal-consume-079.json",
+      "source_blob_sha": "db0aaafab223983525d4eed14d73eb4271a778c6",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"foreground-terminal-consume-079\",\n  \"tracking_issue\": 79,\n  \"status\": \"DONE\",\n  \"goal\": \"Consume durable executor terminal results once and surface the owning task transition without foreground polling.\",\n  \"implementation\": {\n    \"merge_commit\": \"fba48d05264855859423c2c6ea27fc8b6af5b30f\",\n    \"pr\": 83,\n    \"result_ref\": \"cases/foreground-terminal-consume-079/implementation/branch_result.json\"\n  },\n  \"installed_validation\": [\n    \"evidence/taskcell-lean-097/windows-installed-readback-g2.json\",\n    \"evidence/host-update/cleanup-stale-taskcell-policy-install-g1.json\"\n  ],\n  \"behavior\": [\n    \"terminal PASS/ERROR/BLOCKED uses durable canonical state\",\n    \"delivery/consumption is deduplicated\",\n    \"declared continuation is scheduled once\",\n    \"unconsumed terminal may escalate to Watchdog\"\n  ]\n}\n"
+    },
+    {
+      "source_path": "tasks/foreground-terminal-consume-079.plan.json",
+      "source_blob_sha": "aec8e1b95dab962169e12119da0ea70b24dceb7f",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"foreground-terminal-consume-079\",\n  \"status\": \"DONE\",\n  \"implementation_pr\": 83,\n  \"merge_commit\": \"fba48d05264855859423c2c6ea27fc8b6af5b30f\",\n  \"result_ref\": \"cases/foreground-terminal-consume-079/implementation/branch_result.json\",\n  \"installed_readback_ref\": \"evidence/taskcell-lean-097/windows-installed-readback-g2.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/gah-self-audit-bootstrap-001.json",
+      "source_blob_sha": "4e8a405a422f3930baad3e3481a07bde2b4e213c",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah-self-audit-bootstrap-001\",\n  \"tracking_issue\": 50,\n  \"status\": \"SUPERSEDED\",\n  \"outcome\": \"The original self-audit bootstrap task was replaced by later #82/#97 architecture and maintenance work.\",\n  \"retained_refs\": [\n    \"Git history of tasks/gah-self-audit-bootstrap-001.json\",\n    \"issue #50\",\n    \"issue #82\",\n    \"issue #97\"\n  ],\n  \"current_policy_refs\": [\n    \"docs/TASK_CELL_ADMISSION.md\",\n    \"docs/NORMAL_TASK_PATH.md\",\n    \"state/chatgpt.json\"\n  ]\n}\n"
+    },
+    {
+      "source_path": "tasks/gah-self-audit-bootstrap-001.plan.json",
+      "source_blob_sha": "1066eb50f0d593462429b4a472c35c2e21fc752d",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah-self-audit-bootstrap-001\",\n  \"status\": \"SUPERSEDED\",\n  \"current_tracker\": 50,\n  \"current_policy_refs\": [\n    \"docs/TASK_CELL_ADMISSION.md\",\n    \"tasks/planner-hybrid-control-082.plan.json\"\n  ]\n}\n"
+    },
+    {
+      "source_path": "tasks/gah050-model-compat-lane01.json",
+      "source_blob_sha": "0c02750bab2732a91b1d7cbce5b3ab107321293c",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah050-model-compat-lane01\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/gah050-model-compat-lane01.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/feat/050-observed-model-binding/cases/gah-self-audit-bootstrap-001/work/model-compat-lane01/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-gah050-model-compat-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-gah050-model-compat-g1-19sep2026\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/gah050-model-compat-lane01.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/gah050-model-lane01.json",
+      "source_blob_sha": "a3e37c907adbb06a64d795ba82c9024788540d23",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah050-model-lane01\",\n  \"parent_task_id\": \"gah-self-audit-bootstrap-001\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/gah050-model-lane01.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/feat/050-observed-model-binding/cases/gah-self-audit-bootstrap-001/work/model-lane01/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-gah050-model-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-gah050-model-g1-19sep2026\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/gah050-model-lane01.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/gah050-model-review-lane01.json",
+      "source_blob_sha": "bf284262629c3a650d9e23b4a43677c18eb315c3",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah050-model-review-lane01\",\n  \"parent_task_id\": \"gah-self-audit-bootstrap-001\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/gah050-model-review-lane01.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/feat/050-observed-model-binding/cases/gah-self-audit-bootstrap-001/work/model-review-lane01/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-gah050-model-review-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-gah050-model-review-g1-19sep2026\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/gah050-model-review-lane01.json\"\n}\n"
+    }
+  ]
+}
