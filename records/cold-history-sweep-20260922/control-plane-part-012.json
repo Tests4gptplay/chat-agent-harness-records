@@ -1,0 +1,86 @@
+{
+  "v": 1,
+  "kind": "cah_cold_history_control_bundle",
+  "archive_id": "cold-history-sweep-20260922",
+  "part": 12,
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_main_sha": "6841ee34960a3d8b2518b11cd2404d689bca5bb1",
+  "item_count": 15,
+  "items": [
+    {
+      "source_path": "tasks/gah050-parallel-lane01.json",
+      "source_blob_sha": "426c00b06630617e49d90fec5654409e0f120bae",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah050-parallel-lane01\",\n  \"parent_task_id\": \"gah-self-audit-bootstrap-001\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/gah050-parallel-lane01.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/fix/050-parallel-finalizer/cases/gah-self-audit-bootstrap-001/work/lane-01/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-gah050-parallel-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-gah050-parallel-g1-19sep2026\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/gah050-parallel-lane01.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/gah050-parallel-review-lane01.json",
+      "source_blob_sha": "6725ecdde1c5a9a732ac8ecd5a05e37ed46fd4c4",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah050-parallel-review-lane01\",\n  \"parent_task_id\": \"gah-self-audit-bootstrap-001\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/gah050-parallel-review-lane01.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/fix/050-parallel-finalizer/cases/gah-self-audit-bootstrap-001/work/parallel-review-lane01/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-gah050-parallel-review-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-gah050-parallel-review-g1-19sep2026\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/gah050-parallel-review-lane01.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/gah050-scheduling-lane00.json",
+      "source_blob_sha": "77852d7166b1d0a47f8f080e80a444cb1ea2cfb7",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah050-scheduling-lane00\",\n  \"parent_task_id\": \"gah-self-audit-bootstrap-001\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/gah050-scheduling-lane00.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/fix/050-adaptive-control/cases/gah-self-audit-bootstrap-001/work/scheduling-lane00/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-gah050-scheduling-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-gah050-scheduling-g1-19sep2026\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/gah050-scheduling-lane00.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/gah050-semantic-lane00.json",
+      "source_blob_sha": "c89108bd8f488f4d5159f42236ba0c7ac8caae02",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah050-semantic-lane00\",\n  \"parent_task_id\": \"gah-self-audit-bootstrap-001\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/gah050-semantic-lane00.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/fix/050-semantic-finalizer/cases/gah-self-audit-bootstrap-001/work/lane-00/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-gah050-semantic-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-gah050-semantic-g1-19sep2026\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/gah050-semantic-lane00.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/gah050-transport-lane00.json",
+      "source_blob_sha": "7502eaf450289ad4d9ea9f414b8010943572ffca",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah050-transport-lane00\",\n  \"parent_task_id\": \"gah-self-audit-bootstrap-001\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/gah050-transport-lane00.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/40088c6a588349d83a32916140c53efb2e325ed5/cases/gah-self-audit-bootstrap-001/work/transport-lane00/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-gah050-transport-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-gah050-transport-g1-19sep2026\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/gah050-transport-lane00.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/gah050-transport-review-lane00.json",
+      "source_blob_sha": "c3f8a5dd3eef1ee39f16c5dd9a8e385c79433479",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"gah050-transport-review-lane00\",\n  \"parent_task_id\": \"gah-self-audit-bootstrap-001\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/gah050-transport-review-lane00.backend.json\",\n  \"result_ref\": \"github://Tests4gptplay/git-agent-harness/fix/050-control-transport/cases/gah-self-audit-bootstrap-001/work/transport-review-lane00/branch_result.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-gah050-transport-review-g1\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-gah050-transport-review-g1-19sep2026\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/gah050-transport-review-lane00.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/lane-01-deployment-readback-001.json",
+      "source_blob_sha": "1badd568deb6727761497497dc72e17383618dab",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"lane-01-deployment-readback-001\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/lane-01-deployment-readback-001.backend.json\",\n  \"result_ref\": \"evidence/dual-lane-deploy/lane-01-readback.json\",\n  \"dispatch\": {\n    \"dispatch_id\": \"dispatch-lane01-deploy-1789788470328\",\n    \"generation\": 1,\n    \"fence_token\": \"fence-lane01-deploy-1789788470328\",\n    \"state\": \"DONE\"\n  },\n  \"history_ref\": \"git history of tasks/lane-01-deployment-readback-001.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/planner-hybrid-control-082-p1.json",
+      "source_blob_sha": "9a62250156779389c3874155a2e328b603fec64d",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"planner-hybrid-control-082-p1\",\n  \"parent_task_id\": \"planner-hybrid-control-082\",\n  \"tracking_issue\": 82,\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/planner-hybrid-control-082-p1.backend.json\",\n  \"result_ref\": \"cases/planner-hybrid-control-082/p1/branch_result.json\",\n  \"source_commit\": \"65332dbb25b191c7cf81dd7731aad97a8e177973\",\n  \"history_ref\": \"git history of tasks/planner-hybrid-control-082-p1.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/planner-hybrid-control-082-p2.json",
+      "source_blob_sha": "2ed66059cd08cd5319a5bd02d3ae0c802c74a594",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"planner-hybrid-control-082-p2\",\n  \"parent_task_id\": \"planner-hybrid-control-082\",\n  \"tracking_issue\": 82,\n  \"status\": \"SUPERSEDED\",\n  \"backend_cl\": \"cl/planner-hybrid-control-082-p2.backend.json\",\n  \"superseded_by\": \"tasks/planner-hybrid-control-082.plan.json rev9\",\n  \"source_commit\": \"7c1eafee7161d8c1db19f59af7be773aba2a5743\",\n  \"history_ref\": \"git history of tasks/planner-hybrid-control-082-p2.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/planner-hybrid-control-082-phase-a-g1.json",
+      "source_blob_sha": "7313c1b1b86906e232bc406fb88a0f76f0fa768c",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"planner-hybrid-control-082-phase-a-g1\",\n  \"status\": \"READY\",\n  \"execution_allowed\": true,\n  \"phase\": \"A\",\n  \"mode\": \"CONTROL_PLANE_DRYRUN_SYNTHETIC\",\n  \"goal\": \"Execute the smallest deterministic evidence-only synthetic backend phase A for planner-hybrid-control-082 and produce one durable PASS result with no external/user/project side effects.\",\n  \"parent_task_id\": \"planner-hybrid-control-082\",\n  \"control_epoch\": 1,\n  \"expected_result_ref\": \"cases/planner-hybrid-control-082/phase-a-g1/branch_result.json\",\n  \"result_contract\": {\n    \"v\": 1,\n    \"task_id\": \"planner-hybrid-control-082-phase-a-g1\",\n    \"status\": \"PASS\",\n    \"phase\": \"A\",\n    \"synthetic\": true,\n    \"side_effects\": false\n  },\n  \"constraints\": [\n    \"Do not modify CAH source, Task Contract, plan, Task Cell state, Viewer, AGENTS, #79, user/project assets, or host configuration.\",\n    \"Do not invoke UE/Blender or destructive host operations.\",\n    \"Only write the task-declared durable synthetic result/evidence required by the Worker contract.\",\n    \"Return PASS only after the deterministic synthetic/echo action itself has completed.\"\n  ],\n  \"parent_planner_decision_ref\": \"evidence/planner-hybrid-control-082/roles/planner/decisions/doorbell-23cd2c9e78b7ab8a59099629b1314d34.json\",\n  \"backend_cl\": \"cl/planner-hybrid-control-082-phase-a-g1.backend.json\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"reconcile_note\": \"Added canonical routing fields after #82 dry-run exposed missing generated child routing contract.\",\n  \"kind\": \"planner_worker_child\"\n}\n"
+    },
+    {
+      "source_path": "tasks/planner-hybrid-control-082.json",
+      "source_blob_sha": "023880e8d4d1d6e02beed7201ad99114653083ba",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"planner-hybrid-control-082\",\n  \"tracking_issue\": 82,\n  \"status\": \"WAIT_LIVE_ACCEPTANCE\",\n  \"goal\": \"Live-validate Planner-led managed continuity while Foreground may remain inactive.\",\n  \"plan_ref\": \"tasks/planner-hybrid-control-082.plan.json\",\n  \"invariants\": [\n    \"Planner uses bounded event-driven turns and ends on a durable wait.\",\n    \"Managed authority is task_id + control_epoch + current generation/fence.\",\n    \"Rollover has one authoritative Planner and at most one candidate successor.\",\n    \"Watchdog is low-duty anomaly observation; Helper is on-demand expert support.\",\n    \"Final cleanup retains compact evidence and removes exact task-owned disposable state.\"\n  ],\n  \"remaining_acceptance\": [\n    \"Two backend phases progress from durable events with Foreground inactive.\",\n    \"One rollover/failover preserves task/epoch and single Planner authority.\",\n    \"One concrete ambiguity exercises Helper escalation.\",\n    \"Final delivery/cleanup reaches terminal state; repeated lifecycle storage stays bounded.\"\n  ],\n  \"history_ref\": \"git history of tasks/planner-hybrid-control-082.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/planner-hybrid-control-082.plan.json",
+      "source_blob_sha": "e63b72dd842cb89ea8f24f46703dd6fe79b61ba4",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"planner-hybrid-control-082\",\n  \"control_epoch\": 1,\n  \"plan_revision\": 11,\n  \"status\": \"WAIT_LIVE_ACCEPTANCE\",\n  \"wake_policy\": {\n    \"model\": \"current/default conversation setting\",\n    \"payload\": \"minimal role/task/event/ref\",\n    \"watchdog_healthy_seconds\": 120\n  },\n  \"scenario\": [\n    \"Establish/confirm current Planner authority and durable wait.\",\n    \"Run managed backend phase A; terminal result creates one Planner event and one bounded Planner turn.\",\n    \"Run managed backend phase B the same way with Foreground inactive.\",\n    \"Exercise one successor rollover or failover and verify predecessor fencing.\",\n    \"Introduce one bounded recovery ambiguity and route it once to Helper.\",\n    \"Deliver final result; terminal Cleaner compacts parent/plan/terminal children/handoffs/receipts/hot pointers and preserves final/protected evidence.\"\n  ],\n  \"next_action\": \"Run the smallest live #82 phase A -> phase B loop first; then exercise rollover, Helper ambiguity and terminal Cleaner in the same managed lifecycle.\",\n  \"cleaner_ref\": \"docs/CLEANER_RULES.md\"\n}\n"
+    },
+    {
+      "source_path": "tasks/scheduler-ack-smoke-20260918.json",
+      "source_blob_sha": "148ac4a2b1be3e24778fa533634931cd9239a752",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"scheduler-ack-smoke-20260918\",\n  \"status\": \"DONE\",\n  \"backend_cl\": \"cl/scheduler-ack-smoke-20260918.backend.json\",\n  \"history_ref\": \"git history of tasks/scheduler-ack-smoke-20260918.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/scheduler-wait-result-smoke-20260918.json",
+      "source_blob_sha": "055f94ea646a4b82b1a46a1ebaf8ea4df1f0f055",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"scheduler-wait-result-smoke-20260918\",\n  \"status\": \"HISTORICAL_BLOCKED\",\n  \"backend_cl\": \"cl/scheduler-wait-result-smoke-20260918.backend.json\",\n  \"history_ref\": \"git history of tasks/scheduler-wait-result-smoke-20260918.json\"\n}\n"
+    },
+    {
+      "source_path": "tasks/task-cell-admission-076.bootstrap.json",
+      "source_blob_sha": "a8913f7d73929433e7e45169ebfedf1d0ce09484",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"task-cell-admission-076\",\n  \"kind\": \"historical_bootstrap\",\n  \"status\": \"SUPERSEDED\",\n  \"current_task_ref\": \"tasks/task-cell-admission-076.json\",\n  \"current_policy_ref\": \"docs/TASK_CELL_ADMISSION.md\",\n  \"history_ref\": \"git history of tasks/task-cell-admission-076.bootstrap.json\"\n}\n"
+    }
+  ]
+}
