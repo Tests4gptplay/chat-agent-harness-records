@@ -2,5 +2,11 @@
   "v": 1,
   "kind": "cah_record_index",
   "repository": "Tests4gptplay/chat-agent-harness-records",
-  "records": {}
+  "records": {
+    "planner-hybrid-control-082": {
+      "path": "records/planner-hybrid-control-082/archive.json",
+      "archive_commit": "0b246f6fd65d4d03c836c78b7c8bf713758bcf10",
+      "status": "ARCHIVED"
+    }
+  }
 }
