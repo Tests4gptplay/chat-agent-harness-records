@@ -1,0 +1,86 @@
+{
+  "v": 1,
+  "kind": "cah_cold_history_control_bundle",
+  "archive_id": "cold-history-sweep-20260922",
+  "part": 6,
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_main_sha": "6841ee34960a3d8b2518b11cd2404d689bca5bb1",
+  "item_count": 15,
+  "items": [
+    {
+      "source_path": "requests/dispatch-recovery/recover-blender-retro-camera-001-gen13-stall-001.json",
+      "source_blob_sha": "9c0973b06dc716c21e90ebce167a7eec39e98ff5",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"recover-blender-retro-camera-001-gen13-stall-001\",\n  \"kind\": \"executor_result\",\n  \"task_id\": \"blender-retro-camera-001\",\n  \"backend_cl\": \"cl/blender-retro-camera-001.backend.json\",\n  \"from_dispatch_id\": \"dispatch-010e66519c393e233c4c9f07\",\n  \"from_generation\": 13,\n  \"from_fence_token\": \"fence-f98a4e87de54364ad4059e64a6f3b56e\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"attachment_ref\": \"cases/blender-retro-camera-001/camera/review_assets/iter_03/contact_sheet.jpg\",\n  \"reason\": \"Generation 13 normal-path visual review was runtime-admitted with the native iteration-3 contact-sheet attachment but produced no durable semantic review/checkpoint after the review window. Fence it and re-dispatch the same iteration-3 PASS visual review under a new generation; do not rerun Blender.\"\n}\n"
+    },
+    {
+      "source_path": "requests/dispatch-recovery/recover-blender-retro-camera-001-gen14-successor-001.json",
+      "source_blob_sha": "df5fd979aac71ce621be2c6de505d3ef76e3f475",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"recover-blender-retro-camera-001-gen14-successor-001\",\n  \"kind\": \"executor_result\",\n  \"task_id\": \"blender-retro-camera-001\",\n  \"backend_cl\": \"cl/blender-retro-camera-001.backend.json\",\n  \"from_dispatch_id\": \"dispatch-f8850d623b779a55cd54e044\",\n  \"from_generation\": 14,\n  \"from_fence_token\": \"fence-495dbb3f5c120548a8be42bcad6f67c1\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"attachment_ref\": \"cases/blender-retro-camera-001/camera/review_assets/iter_03/contact_sheet.jpg\",\n  \"reason\": \"Semantic-stall successor pool-00cf239c-ce9a-4852-939a-73e31613f354 has durably taken over lane-00, while generation 14 was admitted by outgoing pool-2d78d595-6553-4759-b132-cbcb2c60fa96. Fence generation 14 and re-dispatch the same iteration-3 PASS visual review to the verified successor; do not rerun Blender.\"\n}\n"
+    },
+    {
+      "source_path": "requests/dispatch-recovery/recover-blender-retro-camera-001-gen4-review-001.json",
+      "source_blob_sha": "71ab56ed3b00dd27975ffa4704ebc88b9733109b",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"recover-blender-retro-camera-001-gen4-review-001\",\n  \"kind\": \"executor_result\",\n  \"task_id\": \"blender-retro-camera-001\",\n  \"backend_cl\": \"cl/blender-retro-camera-001.backend.json\",\n  \"from_dispatch_id\": \"dispatch-d3133a341d0dcead4cda3636\",\n  \"from_generation\": 4,\n  \"from_fence_token\": \"fence-b2447f03250d0bfcdeae8ca3e35bb1ec\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"reason\": \"Generation 4 was admitted RUNNING for iteration-1 visual review, but no semantic review artifact appeared; extension 0.6.6 deployment showed no managed tabs ready after stale-current recovery. Re-dispatch the same durable continuation under a new generation/fence without rerunning Blender.\"\n}\n"
+    },
+    {
+      "source_path": "requests/dispatch-recovery/recover-blender-retro-camera-001-gen5-compact-review-001.json",
+      "source_blob_sha": "a4694ae2c5537600bb153519dffc677652ba317e",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"recover-blender-retro-camera-001-gen5-compact-review-001\",\n  \"kind\": \"executor_result\",\n  \"task_id\": \"blender-retro-camera-001\",\n  \"backend_cl\": \"cl/blender-retro-camera-001.backend.json\",\n  \"from_dispatch_id\": \"dispatch-6682122e8dff419278563dd6\",\n  \"from_generation\": 5,\n  \"from_fence_token\": \"fence-ed067e23e59e00f33341c038495f90f4\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"reason\": \"Generation 5 remained RUNNING without iter_01_review.md. A compact visual transport is now durable at cases/blender-retro-camera-001/camera/review_assets/iter_01/review_packet.json and the Worker protocol explicitly requires it. Re-dispatch the same iteration-1 PASS continuation under a new fence; do not rerun Blender.\"\n}\n"
+    },
+    {
+      "source_path": "requests/dispatch-recovery/recover-blender-retro-camera-001-gen6-native-vision-001.json",
+      "source_blob_sha": "b9642ad592278b12f4f22ad83303d48f3959bab1",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"recover-blender-retro-camera-001-gen6-native-vision-001\",\n  \"kind\": \"executor_result\",\n  \"task_id\": \"blender-retro-camera-001\",\n  \"backend_cl\": \"cl/blender-retro-camera-001.backend.json\",\n  \"from_dispatch_id\": \"dispatch-c985a35116a1d4c776d88f8d\",\n  \"from_generation\": 6,\n  \"from_fence_token\": \"fence-8c0582ca1175784c86bcf9dfe25c6a15\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"attachment_ref\": \"cases/blender-retro-camera-001/camera/review_assets/iter_01/contact_sheet.jpg\",\n  \"reason\": \"Generation 6 remained RUNNING without iter_01_review.md after compact text transport. Runtime 0.6.8 now supports an allowlisted native visual attachment. Re-dispatch the same iteration-1 PASS continuation with the contact sheet attached; do not rerun Blender.\"\n}\n"
+    },
+    {
+      "source_path": "requests/dispatch-recovery/recover-blender-retro-camera-001-gen7-handoff-safe-001.json",
+      "source_blob_sha": "a6d2cc2d4f3defbfa96ba2288ce12633ce337609",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"recover-blender-retro-camera-001-gen7-handoff-safe-001\",\n  \"kind\": \"executor_result\",\n  \"task_id\": \"blender-retro-camera-001\",\n  \"backend_cl\": \"cl/blender-retro-camera-001.backend.json\",\n  \"from_dispatch_id\": \"dispatch-bbe6e897b3727c34f024c31f\",\n  \"from_generation\": 7,\n  \"from_fence_token\": \"fence-b116bec5ebadcdc2967a77fe188f1348\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"attachment_ref\": \"cases/blender-retro-camera-001/camera/review_assets/iter_01/contact_sheet.jpg\",\n  \"reason\": \"Generation 7 was runtime-admitted by pool-cd6d while canonical state already marked that Worker as an outgoing context-compacted HANDOFF. Runtime 0.6.9 now defers semantic wakes away from outgoing Workers, and the bridge accepts the exact newer lane-00 top-level takeover over a stale lane mirror. Fence generation 7 and re-dispatch the same iteration-1 PASS visual review with the native contact-sheet attachment; do not rerun Blender.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-final-blend.json",
+      "source_blob_sha": "f6f8bd1fb10867c8d27459f46b35e89377a525bc",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-final-blend\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/final.blend\",\n  \"purpose\": \"Materialize final-blend from terminal Blender public case for user delivery.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-final-manifest-canonical.json",
+      "source_blob_sha": "850e5d6d85dc2fd00217cd184ad7c4769d37aaf6",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-final-manifest-canonical\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/final_manifest.json\",\n  \"purpose\": \"Materialize corrected canonical final manifest for user delivery.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-final-manifest.json",
+      "source_blob_sha": "a689e58221fa01821b9403f34b484f5be0b1a3a5",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-final-manifest\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/final_manifest.json\",\n  \"purpose\": \"Materialize final-manifest from terminal Blender public case for user delivery.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-final-render.json",
+      "source_blob_sha": "2b27f035b1e137baa1f4fad0d995068482d09e7a",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-final-render\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/final.png\",\n  \"purpose\": \"Materialize final-render from terminal Blender public case for user delivery.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-final-script.json",
+      "source_blob_sha": "57324d433f3ac13a897c2a7a8f3e92c1622fd31e",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-final-script\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/final_camera.py\",\n  \"purpose\": \"Materialize final-script from terminal Blender public case for user delivery.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-iter01-b.json",
+      "source_blob_sha": "7a62ab34d134d9c34e1a4c9314a6af9c7c2438fa",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-iter01-b\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/renders/iter_01.png\",\n  \"purpose\": \"Materialize the first Blender camera render for foreground user viewing after exporter fix.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-iter01.json",
+      "source_blob_sha": "91ce14ac418882e0d36039a58dd9583e93a4d4af",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-iter01\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/renders/iter_01.png\",\n  \"purpose\": \"Materialize the first Blender camera render for foreground user viewing.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-iter02-supervisor.json",
+      "source_blob_sha": "add086938db9893e0c0828b969f4b806db660884",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-iter02-supervisor\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/renders/iter_02.png\",\n  \"purpose\": \"Foreground supervisor audit of iteration 2 while managed Worker performs canonical review.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-iter03-contact-supervisor.json",
+      "source_blob_sha": "87ea091b2742c4618dda928e93c0909f29193e9f",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-iter03-contact-supervisor\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/review_assets/iter_03/contact_sheet.jpg\",\n  \"purpose\": \"Foreground supervisor recovery review of iteration 3 after managed semantic review stalls.\"\n}\n"
+    }
+  ]
+}
