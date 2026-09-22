@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "kind": "cah_task_archive",
+  "task_id": "planner-hybrid-control-082",
+  "status": "ARCHIVED",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_main_sha": "411527f3491550900682a61c66da868953f04af8",
+  "archive_scope": "historical #82 dry-run control records",
+  "bundle_ref": "records/planner-hybrid-control-082/control/planner082-dryrun-history-bundle.json",
+  "item_count": 9,
+  "active_runtime_relevance": "NONE"
+}
