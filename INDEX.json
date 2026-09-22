@@ -296,6 +296,14 @@
       "archive_commit": "d77fc9846382c1218e16582916292ea5514fd7f6",
       "status": "ARCHIVED",
       "archive_id": "cold-history-sweep-20260922"
+    },
+    "cold-history-sweep-20260922-phase2": {
+      "path": "records/cold-history-sweep-20260922-phase2/archive.json",
+      "archive_commit": "64d4e51385af73b9ed8a205f8a64903e934e466e",
+      "status": "ARCHIVED",
+      "kind": "git_object_cold_archive",
+      "source_main_sha": "831c6cda07700ce4406874b98e5bacd6d560da1e",
+      "item_count": 719
     }
   }
 }
