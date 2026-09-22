@@ -1,0 +1,86 @@
+{
+  "v": 1,
+  "kind": "cah_cold_history_control_bundle",
+  "archive_id": "cold-history-sweep-20260922",
+  "part": 7,
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_main_sha": "6841ee34960a3d8b2518b11cd2404d689bca5bb1",
+  "item_count": 15,
+  "items": [
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-iter03-supervisor.json",
+      "source_blob_sha": "3c904d198a083eb5fa8e1ab4a82c9918b804940f",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-iter03-supervisor\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/renders/iter_03.png\",\n  \"purpose\": \"Foreground supervisor audit of iteration 3 while managed Worker performs canonical review.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-iter04-contact-supervisor.json",
+      "source_blob_sha": "1cf804efae280a06e3e1c810642b2829e25274fd",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-iter04-contact-supervisor\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/review_assets/iter_04/contact_sheet.jpg\",\n  \"purpose\": \"Foreground supervisor visual review of iteration 4.\"\n}\n"
+    },
+    {
+      "source_path": "requests/foreground-artifact-export/foreground-export-blender-retro-camera-001-iter05-contact-supervisor.json",
+      "source_blob_sha": "d48607d1bcfc0743c1dfaa4dd325ce2bfce1d009",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"foreground-export-blender-retro-camera-001-iter05-contact-supervisor\",\n  \"artifact_ref\": \"cases/blender-retro-camera-001/camera/review_assets/iter_05/contact_sheet.jpg\",\n  \"purpose\": \"Foreground supervisor hard-stop review of iteration 5.\"\n}\n"
+    },
+    {
+      "source_path": "requests/host-diagnostic/cah-dom-single-shot-002-postwake-g1.json",
+      "source_blob_sha": "46666ec21111531d43fda452b6608393cd10d25c",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"cah-dom-single-shot-002-postwake-g1\",\n  \"delay_seconds\": 0,\n  \"purpose\": \"Second sample: determine whether Worker semantic turn ended and whether a CAH Tool call was observed.\",\n  \"sample\": 2\n}\n"
+    },
+    {
+      "source_path": "requests/host-diagnostic/cah-dom-single-shot-003-postadmit-g1.json",
+      "source_blob_sha": "52ea59a00046ef7b91b1c682537681cd4284a5a4",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"cah-dom-single-shot-003-postadmit-g1\",\n  \"delay_seconds\": 0,\n  \"purpose\": \"Inspect CAH 1.0.18 extension events and Worker state after 003 admission reached RUNNING but before any durable Tool evidence appeared.\"\n}\n"
+    },
+    {
+      "source_path": "requests/host-diagnostic/cah-dom-single-shot-004-poststart-g1.json",
+      "source_blob_sha": "acd7ee8df123f74f8ce02dbea0819f46fd0baaaa",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"cah-dom-single-shot-004-poststart-g1\",\n  \"delay_seconds\": 0,\n  \"purpose\": \"Second CAH 1.0.19 sample after 004 response-start: capture whether worker.tool_call/browser.tabs or semantic response-end occurred.\"\n}\n"
+    },
+    {
+      "source_path": "requests/host-diagnostic/cah-dom-single-shot-004-prestart-g1.json",
+      "source_blob_sha": "e6c6bc548540a1c1e7af6be4a210af744faaf717",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"cah-dom-single-shot-004-prestart-g1\",\n  \"delay_seconds\": 0,\n  \"purpose\": \"Inspect CAH 1.0.19 extension/lane state because Worker wake 004 was drained from Git but response-start has not yet appeared.\"\n}\n"
+    },
+    {
+      "source_path": "requests/host-diagnostic/host-diag-20260921-tca076-planner-bootstrap-001.json",
+      "source_blob_sha": "24f4cb8b1e311995ec9883ebc5dfca1eed191a49",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"host-diag-20260921-tca076-planner-bootstrap-001\",\n  \"delay_seconds\": 0\n}\n"
+    },
+    {
+      "source_path": "requests/host-diagnostic/ue-quicklook-taskcell-resume-20260920.json",
+      "source_blob_sha": "f8e7f5fdd798d7033d4b4e8d6a8004d8119ea7fb",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"ue-quicklook-taskcell-resume-20260920\",\n  \"delay_seconds\": 0,\n  \"reason\": \"Read current local bridge, extension hello and Task Cell control delivery for the resumed UE showcase. Do not restart Chrome, clear conversations, install tools, run an old UE task or modify public repositories.\"\n}\n"
+    },
+    {
+      "source_path": "requests/parallel-branch-finalize/cah-migration-final-lane00.json",
+      "source_blob_sha": "b29a008789ac45de62e6fe6995a84be41cc75227",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"cah-migration-final-lane00\"\n}\n"
+    },
+    {
+      "source_path": "requests/parallel-branch-finalize/cah-migration-final-lane01.json",
+      "source_blob_sha": "d83e77d89efc6c9f67bac5174dcf4f385c856c6b",
+      "content": "{\n  \"v\": 1,\n  \"task_id\": \"cah-migration-final-lane01\"\n}\n"
+    },
+    {
+      "source_path": "requests/parallel-branch-finalize/gah050-model-review-ready.json",
+      "source_blob_sha": "da7fd30d9db66d958acf65f9ccd115214e9a048b",
+      "content": "{\"v\":1,\"task_id\":\"gah050-model-lane01\",\"reason\":\"Durable source proposal ready; project fenced result only. Foreground found model observation and timeout counterexamples and has not accepted PR55 or live binding.\"}\n"
+    },
+    {
+      "source_path": "requests/parallel-branch-finalize/gah050-transport-review-ready.json",
+      "source_blob_sha": "2b5487e11bc31cfbfe660682fe5f688c3ccf25de",
+      "content": "{\"v\":1,\"task_id\":\"gah050-transport-lane00\",\"reason\":\"Durable fenced branch result is ready for independent review; project the result without live source deployment or reinjecting the original semantic task.\"}\n"
+    },
+    {
+      "source_path": "requests/parallel-branch-finalize/ue-mod-quicklook-001-lane00-g15.json",
+      "source_blob_sha": "c5de8b37aea8b9e856f3a97e5232cb8482bef00f",
+      "content": "{\n  \"v\": 1,\n  \"request_id\": \"ue-mod-quicklook-001-lane00-g15-finalize\",\n  \"task_id\": \"ue-mod-quicklook-001-lane00\"\n}\n"
+    },
+    {
+      "source_path": "requests/parallel-branch-finalize/ueql002-prepared-camera.json",
+      "source_blob_sha": "b7bb1d8f15b5b76b3d25ad7b07deaa756bb865b9",
+      "content": "{\"v\":1,\"task_id\":\"ueql002-camera-prep\",\"reason\":\"Prepared source contract complete; actual native Cook is separately tracked and must not be inferred from this PASS.\"}\n"
+    }
+  ]
+}
