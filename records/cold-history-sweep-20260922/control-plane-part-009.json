@@ -1,0 +1,86 @@
+{
+  "v": 1,
+  "kind": "cah_cold_history_control_bundle",
+  "archive_id": "cold-history-sweep-20260922",
+  "part": 9,
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_main_sha": "6841ee34960a3d8b2518b11cd2404d689bca5bb1",
+  "item_count": 15,
+  "items": [
+    {
+      "source_path": "requests/worker-wake/gah050-transport-review-g1.json",
+      "source_blob_sha": "3f1c274c6a8941673af66f13ff5dbf1764064b8b",
+      "content": "{\"v\":1,\"project_id\":\"git-agent-harness\",\"repo\":\"Tests4gptplay/git-agent-harness\",\"state\":\"NEED_AGENT\",\"kind\":\"self_bootstrap_review_fix\",\"wake_id\":\"wake-gah050-transport-review-g1\",\"lane_id\":\"lane-00\",\"worker_project_key\":\"g-p-6aac09c189548191acbbfeb86cd70ab2\",\"task_id\":\"gah050-transport-review-lane00\",\"backend_cl\":\"cl/gah050-transport-review-lane00.backend.json\",\"dispatch_id\":\"dispatch-gah050-transport-review-g1\",\"dispatch_generation\":1,\"fence_token\":\"fence-gah050-transport-review-g1-19sep2026\",\"result_ref\":\"tasks/gah050-transport-review-lane00.json\"}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/scheduler-ack-smoke-20260918-duplicate.json",
+      "source_blob_sha": "f1a1014dff3ff49771bb9d84f08f5685735126ca",
+      "content": "{\n  \"v\": 1,\n  \"wake_id\": \"wake-scheduler-smoke-duplicate-0001\",\n  \"project_id\": \"git-agent-harness\",\n  \"state\": \"NEED_AGENT\",\n  \"repo\": \"Tests4gptplay/git-agent-harness\",\n  \"result_ref\": \"tasks/scheduler-ack-smoke-20260918.json\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"kind\": \"task_dispatch_retry\",\n  \"task_id\": \"scheduler-ack-smoke-20260918\",\n  \"backend_cl\": \"cl/scheduler-ack-smoke-20260918.backend.json\",\n  \"dispatch_id\": \"dispatch-scheduler-smoke-0001\",\n  \"dispatch_generation\": 1,\n  \"fence_token\": \"fence-scheduler-smoke-0001\"\n}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/scheduler-ack-smoke-20260918-start.json",
+      "source_blob_sha": "9ec757559e5802d199c35fd1e78372e3a05b80ec",
+      "content": "{\n  \"v\": 1,\n  \"wake_id\": \"wake-scheduler-smoke-0001\",\n  \"project_id\": \"git-agent-harness\",\n  \"state\": \"NEED_AGENT\",\n  \"repo\": \"Tests4gptplay/git-agent-harness\",\n  \"result_ref\": \"tasks/scheduler-ack-smoke-20260918.json\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"kind\": \"task_dispatch\",\n  \"task_id\": \"scheduler-ack-smoke-20260918\",\n  \"backend_cl\": \"cl/scheduler-ack-smoke-20260918.backend.json\",\n  \"dispatch_id\": \"dispatch-scheduler-smoke-0001\",\n  \"dispatch_generation\": 1,\n  \"fence_token\": \"fence-scheduler-smoke-0001\"\n}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/scheduler-wait-result-smoke-20260918-start.json",
+      "source_blob_sha": "b1c1ab3b5527b16a57506cc6ad445e5fd46865bd",
+      "content": "{\n  \"v\": 1,\n  \"wake_id\": \"wake-wait-result-smoke-0001\",\n  \"project_id\": \"git-agent-harness\",\n  \"state\": \"NEED_AGENT\",\n  \"repo\": \"Tests4gptplay/git-agent-harness\",\n  \"result_ref\": \"tasks/scheduler-wait-result-smoke-20260918.json\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"kind\": \"task_dispatch\",\n  \"task_id\": \"scheduler-wait-result-smoke-20260918\",\n  \"backend_cl\": \"cl/scheduler-wait-result-smoke-20260918.backend.json\",\n  \"dispatch_id\": \"dispatch-wait-result-smoke-0001\",\n  \"dispatch_generation\": 1,\n  \"fence_token\": \"fence-wait-result-smoke-0001\"\n}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/ue-mod-quicklook-001-lane00-g1.json",
+      "source_blob_sha": "0ad3a06e9888b32ff6c309bd08efb9586bf3a7cd",
+      "content": "{\n  \"v\": 1,\n  \"wake_id\": \"wake-ueql-viewer-g1-20260919\",\n  \"project_id\": \"git-agent-harness\",\n  \"state\": \"NEED_AGENT\",\n  \"created_at\": \"2026-09-19T06:50:00Z\",\n  \"repo\": \"Tests4gptplay/git-agent-harness\",\n  \"run_id\": \"ue-mod-quicklook-001-parallel-g1\",\n  \"result_ref\": \"tasks/ue-mod-quicklook-001-lane00.json\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"kind\": \"showcase_branch\",\n  \"task_id\": \"ue-mod-quicklook-001-lane00\",\n  \"backend_cl\": \"cl/ue-mod-quicklook-001-lane00.backend.json\",\n  \"dispatch_id\": \"dispatch-ueql-viewer-g1-20260919\",\n  \"dispatch_generation\": 1,\n  \"fence_token\": \"fence-ueql-viewer-g1-20260919\"\n}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/ue-mod-quicklook-001-lane00-g2.json",
+      "source_blob_sha": "4438aec038866f940ee0ab16f6b096139a8f8adb",
+      "content": "{\n  \"v\": 1,\n  \"wake_id\": \"wake-ueql-viewer-g2-20260919\",\n  \"project_id\": \"git-agent-harness\",\n  \"state\": \"NEED_AGENT\",\n  \"created_at\": \"2026-09-19T06:57:03Z\",\n  \"repo\": \"Tests4gptplay/git-agent-harness\",\n  \"run_id\": \"ue-mod-quicklook-001-parallel-g2-recovery\",\n  \"result_ref\": \"tasks/ue-mod-quicklook-001-lane00.json\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"kind\": \"showcase_branch\",\n  \"task_id\": \"ue-mod-quicklook-001-lane00\",\n  \"backend_cl\": \"cl/ue-mod-quicklook-001-lane00.backend.json\",\n  \"dispatch_id\": \"dispatch-ueql-viewer-g2-20260919\",\n  \"dispatch_generation\": 2,\n  \"fence_token\": \"fence-ueql-viewer-g2-20260919\"\n}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/ue-mod-quicklook-001-lane01-g1.json",
+      "source_blob_sha": "409d625d0a309eb62ef7bae352a246fc980b2f68",
+      "content": "{\n  \"v\": 1,\n  \"wake_id\": \"wake-ueql-camera-g1-20260919\",\n  \"project_id\": \"git-agent-harness\",\n  \"state\": \"NEED_AGENT\",\n  \"created_at\": \"2026-09-19T06:50:05Z\",\n  \"repo\": \"Tests4gptplay/git-agent-harness\",\n  \"run_id\": \"ue-mod-quicklook-001-parallel-g1\",\n  \"result_ref\": \"tasks/ue-mod-quicklook-001-lane01.json\",\n  \"lane_id\": \"lane-01\",\n  \"worker_project_key\": \"g-p-6aacc27ea3dc81918355175b0313a208\",\n  \"kind\": \"showcase_branch\",\n  \"task_id\": \"ue-mod-quicklook-001-lane01\",\n  \"backend_cl\": \"cl/ue-mod-quicklook-001-lane01.backend.json\",\n  \"dispatch_id\": \"dispatch-ueql-camera-g1-20260919\",\n  \"dispatch_generation\": 1,\n  \"fence_token\": \"fence-ueql-camera-g1-20260919\"\n}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/ue-mod-quicklook-001-lane01-g2.json",
+      "source_blob_sha": "34b4ee7827669998c8bb2c218842091e8331c359",
+      "content": "{\n  \"v\": 1,\n  \"wake_id\": \"wake-ueql-camera-g2-20260919\",\n  \"project_id\": \"git-agent-harness\",\n  \"state\": \"NEED_AGENT\",\n  \"created_at\": \"2026-09-19T07:07:13Z\",\n  \"repo\": \"Tests4gptplay/git-agent-harness\",\n  \"run_id\": \"ue-mod-quicklook-001-camera-g2-recovery\",\n  \"result_ref\": \"cases/ue-mod-quicklook-001/work/lane-01/branch_result.json\",\n  \"lane_id\": \"lane-01\",\n  \"worker_project_key\": \"g-p-6aacc27ea3dc81918355175b0313a208\",\n  \"kind\": \"showcase_branch\",\n  \"task_id\": \"ue-mod-quicklook-001-lane01\",\n  \"backend_cl\": \"cl/ue-mod-quicklook-001-lane01.backend.json\",\n  \"dispatch_id\": \"dispatch-ueql-camera-g2-20260919\",\n  \"dispatch_generation\": 2,\n  \"fence_token\": \"fence-ueql-camera-g2-20260919\"\n}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/ue-mod-quicklook-001-lane01-g3.json",
+      "source_blob_sha": "5d7f1bbea75d0cafff788d978f6ccbbc2d4e0adb",
+      "content": "{\n  \"v\": 1,\n  \"wake_id\": \"wake-ueql-camera-g3-20260919\",\n  \"project_id\": \"git-agent-harness\",\n  \"state\": \"NEED_AGENT\",\n  \"created_at\": \"2026-09-19T07:14:20Z\",\n  \"repo\": \"Tests4gptplay/git-agent-harness\",\n  \"run_id\": \"ue-mod-quicklook-001-camera-g3-contract-correction\",\n  \"result_ref\": \"tasks/ue-mod-quicklook-001-lane01.json\",\n  \"lane_id\": \"lane-01\",\n  \"worker_project_key\": \"g-p-6aacc27ea3dc81918355175b0313a208\",\n  \"kind\": \"showcase_branch\",\n  \"task_id\": \"ue-mod-quicklook-001-lane01\",\n  \"backend_cl\": \"cl/ue-mod-quicklook-001-lane01.backend.json\",\n  \"dispatch_id\": \"dispatch-ueql-camera-g3-20260919\",\n  \"dispatch_generation\": 3,\n  \"fence_token\": \"fence-ueql-camera-g3-20260919\"\n}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/ueql002-camera-prep.json",
+      "source_blob_sha": "a89d201c4f641f99cc3a730b847ab18d256c7f58",
+      "content": "{\"v\":1,\"project_id\":\"git-agent-harness\",\"state\":\"NEED_AGENT\",\"wake_id\":\"wake-ueql002-camera-prep-g1\",\"repo\":\"Tests4gptplay/git-agent-harness\",\"result_ref\":\"tasks/ueql002-camera-prep.json\",\"lane_id\":\"lane-01\",\"worker_project_key\":\"g-p-6aacc27ea3dc81918355175b0313a208\",\"kind\":\"ue_showcase_preparation\",\"task_id\":\"ueql002-camera-prep\",\"backend_cl\":\"cl/ueql002-camera-prep.backend.json\",\"dispatch_id\":\"dispatch-ueql002-camera-prep-g1\",\"dispatch_generation\":1,\"fence_token\":\"fence-ueql002-camera-prep-g1-20260920\"}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/ueql002-camera-repair.json",
+      "source_blob_sha": "1281be4846e1a90c0287445eecbfc67c01a6f3b9",
+      "content": "{\"v\":1,\"project_id\":\"git-agent-harness\",\"state\":\"NEED_AGENT\",\"wake_id\":\"wake-ueql002-camera-repair-g1\",\"repo\":\"Tests4gptplay/git-agent-harness\",\"result_ref\":\"tasks/ueql002-camera-repair.json\",\"lane_id\":\"lane-01\",\"worker_project_key\":\"g-p-6aacc27ea3dc81918355175b0313a208\",\"kind\":\"ue_showcase_repair\",\"task_id\":\"ueql002-camera-repair\",\"backend_cl\":\"cl/ueql002-camera-repair.backend.json\",\"dispatch_id\":\"dispatch-ueql002-camera-repair-g1\",\"dispatch_generation\":1,\"fence_token\":\"fence-ueql002-camera-repair-g1-20260920\"}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/ueql002-successor-integration.json",
+      "source_blob_sha": "daaa6a8f490d7b164ef28b099710b620f4ff86dd",
+      "content": "{\"v\":1,\"project_id\":\"git-agent-harness\",\"state\":\"NEED_AGENT\",\"wake_id\":\"wake-ueql002-successor-integration-g1\",\"repo\":\"Tests4gptplay/git-agent-harness\",\"result_ref\":\"tasks/ueql002-successor-integration.json\",\"lane_id\":\"lane-00\",\"worker_project_key\":\"g-p-6aac09c189548191acbbfeb86cd70ab2\",\"kind\":\"ue_showcase_successor_continuation\",\"task_id\":\"ueql002-successor-integration\",\"backend_cl\":\"cl/ueql002-successor-integration.backend.json\",\"dispatch_id\":\"dispatch-ueql002-successor-integration-g1\",\"dispatch_generation\":1,\"fence_token\":\"fence-ueql002-successor-integration-g1-20260920\"}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/ueql002-viewer-prep.json",
+      "source_blob_sha": "82d55e9fc190c7dca1251946fba983d93426d619",
+      "content": "{\"v\":1,\"project_id\":\"git-agent-harness\",\"state\":\"NEED_AGENT\",\"wake_id\":\"wake-ueql002-viewer-prep-g1\",\"repo\":\"Tests4gptplay/git-agent-harness\",\"result_ref\":\"tasks/ueql002-viewer-prep.json\",\"lane_id\":\"lane-00\",\"worker_project_key\":\"g-p-6aac09c189548191acbbfeb86cd70ab2\",\"kind\":\"ue_showcase_preparation\",\"task_id\":\"ueql002-viewer-prep\",\"backend_cl\":\"cl/ueql002-viewer-prep.backend.json\",\"dispatch_id\":\"dispatch-ueql002-viewer-prep-g1\",\"dispatch_generation\":1,\"fence_token\":\"fence-ueql002-viewer-prep-g1-20260920\"}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/wake-cah-dom-single-shot-002-g1.json",
+      "source_blob_sha": "b446d672ec4f00336e5f1f68b4a8a409543b33b5",
+      "content": "{\n  \"v\": 1,\n  \"wake_id\": \"wake-cah-dom-single-shot-002-g1\",\n  \"project_id\": \"git-agent-harness\",\n  \"state\": \"NEED_AGENT\",\n  \"created_at\": \"2026-09-22T08:02:00+00:00\",\n  \"repo\": \"Tests4gptplay/git-agent-harness\",\n  \"result_ref\": \"tasks/cah-dom-single-shot-002.json\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"kind\": \"task_start\",\n  \"task_id\": \"cah-dom-single-shot-002\",\n  \"backend_cl\": \"cl/cah-dom-single-shot-002.backend.json\",\n  \"dispatch_id\": \"dispatch-cah-dom-single-shot-002-g1\",\n  \"dispatch_generation\": 1,\n  \"fence_token\": \"fence-cah-dom-single-shot-002-g1-20260922\"\n}\n"
+    },
+    {
+      "source_path": "requests/worker-wake/wake-cah-dom-single-shot-003-g1.json",
+      "source_blob_sha": "da1e3c6cc2d621ba6311edd67248e13b9d7fc72a",
+      "content": "{\n  \"v\": 1,\n  \"wake_id\": \"wake-cah-dom-single-shot-003-g1\",\n  \"project_id\": \"git-agent-harness\",\n  \"state\": \"NEED_AGENT\",\n  \"created_at\": \"2026-09-22T10:15:00+00:00\",\n  \"repo\": \"Tests4gptplay/git-agent-harness\",\n  \"result_ref\": \"tasks/cah-dom-single-shot-003.json\",\n  \"lane_id\": \"lane-00\",\n  \"worker_project_key\": \"g-p-6aac09c189548191acbbfeb86cd70ab2\",\n  \"kind\": \"task_start\",\n  \"task_id\": \"cah-dom-single-shot-003\",\n  \"backend_cl\": \"cl/cah-dom-single-shot-003.backend.json\",\n  \"dispatch_id\": \"dispatch-cah-dom-single-shot-003-g1\",\n  \"dispatch_generation\": 1,\n  \"fence_token\": \"fence-cah-dom-single-shot-003-g1-20260922\"\n}\n"
+    }
+  ]
+}
