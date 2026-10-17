@@ -1,0 +1,8 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "initial_observation",
+  "observed_at_utc": "2026-10-17T14:30:59.4773248Z",
+  "baseline_ref": "showcase-observer/world-execute-chatgpt-20261017/baseline.json",
+  "host_probe_run": 39041075093,
+  "summary": "Local original-design artifacts verified with hashes; bootstrapping assets remain incomplete; Planner G1 consumed, creative Worker G2 admitted; known three PowerShell failures documented; no completed MV yet."
+}

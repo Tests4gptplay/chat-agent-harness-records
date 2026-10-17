@@ -1,0 +1,106 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "capture_kind": "initial_baseline",
+  "observed_at_utc": "2026-10-17T14:30:59.4773248Z",
+  "observation_source": "Read-only cah-shot Windows host inspection, GitHub canonical main reads and Actions records.",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "branches": {
+    "source": "main",
+    "observer": "main"
+  },
+  "project_directory": "E:\\CAH-Workloads\\world-execute-chatgpt-20261017",
+  "observed_git": {
+    "parent_task_status": "PARKED_WAIT_EVENT",
+    "planner_generation": 1,
+    "planner_completed_turns": 1,
+    "planner_wait": "WAIT_RESULT",
+    "worker_children": [
+      {
+        "child_task_id": "child-3788be6ec7f9c9592c77b815",
+        "lane": "lane-00",
+        "last_observed_generation": 1,
+        "cl": "RUNNING",
+        "note": "In-progress source/media/bootstrap; three earlier managed-host runs failed; Worker prepared bounded checkpoint."
+      },
+      {
+        "child_task_id": "child-6f9633833e2ca8d0ca2ed85f",
+        "lane": "lane-01",
+        "last_observed_generation": 2,
+        "cl": "RUNNING",
+        "note": "G1 completed normal continue and G2 admitted; authored director materials written by Managed host run and directly observed on disk."
+      }
+    ],
+    "first_planner_turn_signal": "done",
+    "first_planner_turn_reduced_commit": "73abfcd265",
+    "anomalies": [
+      "CAH high-level active_action still foreground_planner_handoff despite completed handoff; task cell and CL are more specific.",
+      "state/lanes.json lane status IDLE while task-specific pools exist; CL is authority for exact child RUNNING.",
+      "No local final MV audio/video artifact verified yet."
+    ]
+  },
+  "workflow_evidence": {
+    "protected_workspace_prepare": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39039341699",
+    "original_design_write": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39040838473",
+    "windows_bootstrap_failures": [
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39040497140",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39040585739",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39040730511"
+    ],
+    "short_observer_probe": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39041075093",
+    "short_observer_job_id": 117420525216,
+    "wrapper_alias_defect_issue": "https://github.com/Tests4gptplay/git-agent-harness/issues/391"
+  },
+  "windows_project_files": {
+    "workspace_ready": true,
+    "observed": [
+      {
+        "path": "WORKSPACE.md",
+        "bytes": 529,
+        "sha256": "30cafd4cddf3795d1dcf6a37c16227af3f46efaff0c13aafb330d566c133efcb"
+      },
+      {
+        "path": "source/design/director-bible.md",
+        "bytes": 11042,
+        "sha256": "6b038546713808ef40ac929561857d136620020454243d86011bd45add3ff6e4"
+      },
+      {
+        "path": "source/design/scene-manifest.draft.json",
+        "bytes": 57417,
+        "sha256": "6857a3dfd4f1cc27ca7784fdbbffa8a956caf7e05d81fcc763161125fb7d3f9b"
+      },
+      {
+        "path": "evidence/reference-method-abstraction.md",
+        "bytes": 4594,
+        "sha256": "221870ddf3c4a8f309463fc7e015b42ea22f19435e6bd894eab3b7ab3e940e65"
+      },
+      {
+        "path": "evidence/originality-design-audit.json",
+        "bytes": 5433,
+        "sha256": "144773b31c5ac58adecc0510d4d9ee86ba27976817a8f6508c96061f0d558f7e"
+      },
+      {
+        "path": "evidence/design-build-receipt.json",
+        "bytes": 1014
+      },
+      {
+        "path": "scripts/bootstrap-preflight.ps1",
+        "bytes": 16078
+      }
+    ],
+    "not_present_at_probe": [
+      "evidence/preflight.json",
+      "evidence/reference-provenance.json",
+      "source/timeline/cues.normalized.json"
+    ],
+    "project_path_process_counts": {
+      "python": 0,
+      "ffmpeg": 0,
+      "runner_worker": 0
+    },
+    "process_caveat": "A completed detached action or a purely semantic Worker does not require a persistent command line containing the project directory."
+  },
+  "inference_boundary": "Artifact existence/bytes/hash are direct on-disk proof; full content semantics, audio sync, video production and end-to-end Recovery remain not verified. Git RUNNING means the response was admitted, not continuous host CPU utilization.",
+  "public_projection": "This private baseline includes host-specific absolute paths and raw Git refs. Sanitize identities and machine paths before any future public showcase."
+}
