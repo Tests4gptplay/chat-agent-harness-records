@@ -1,0 +1,77 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "hourly_retrospective_backfill",
+  "capture_method": "retrospective reconstruction using exact GitHub main commit not later than target UTC boundary, immutable Worker Results and GitHub Actions; NOT an observation performed at the named hour",
+  "reconstructed_at_utc": "2026-10-17T19:16:33Z",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "provenance_limit": "Historical Git state and timestamped Actions support claims as-of cutoff. Later findings are excluded. No evidence of continuous execution can be inferred merely from RUNNING; no actual past-hour observer execution is asserted.",
+  "hour_utc": "2026-10-17T17:00:00Z",
+  "as_of_cutoff_utc": "2026-10-17T17:00:00Z",
+  "source_commit": "4e9790c490d71c10af59d0fdbc466f016444df06",
+  "source_commit_time_utc": "2026-10-17T16:56:52Z",
+  "source_git_refs": {
+    "task_cell": "state/task_cells/world-execute-chatgpt-showcase-20261017.json",
+    "task_cell_blob_sha": "1d24688813794ec8c8c99470a43efd61d3e02a73",
+    "middle_result": "evidence/world-execute-chatgpt-showcase-20261017/roles/worker/child-24461d64eca7c954b265c04e/wake-8279169dff8bf7b5fc3d1666.json",
+    "middle_result_blob_sha": "c234c75544234fa7a319bdcc56d63a5467ede20e",
+    "context_child_backend": "cl/child-d24327c630cd9180d05b09a6.backend.json",
+    "context_child_backend_blob_sha": "c00e0413e26a2834022b953a13d1735592fa72e5"
+  },
+  "previous_ref": "showcase-observer/world-execute-chatgpt-20261017/hourly/2026-10-17/2026-10-17T16-00Z.json",
+  "parent": {
+    "status": "PARKED_WAIT_EVENT",
+    "planner_generation": 1,
+    "planner_activity": "PARKED_WAIT_EVENT",
+    "planner_wait": "WAIT_RESULT",
+    "terminal": false
+  },
+  "workers": [
+    {
+      "child_id": "child-24461d64eca7c954b265c04e",
+      "generation": 2,
+      "status": "DONE",
+      "scene_scope": "S11-S17 [59.223,110.900)",
+      "result": "PASS / turn_signal=complete"
+    },
+    {
+      "child_id": "child-d24327c630cd9180d05b09a6",
+      "generation": 2,
+      "status": "RUNNING (acknowledged response start, not continuous host-process proof)",
+      "dispatch_acked_at_utc": "2026-10-17T16:56:52Z",
+      "scene_scope": "S18-S23 Child; partial A5 S18-S20 physically verified, A6 S21-S23 not yet executed"
+    }
+  ],
+  "observed_delta": [
+    "Planner completed review and accepted earlier S01-S10 and MIDDLE S11–S17 work; MIDDLE Worker Result recorded 21 distinct full-HD samples, 121 independent QA checks, 38 lyric cues and S17→S18 seam state.",
+    "On a separate primary Managed host run 39051336915, A5 S18–S20 [110.900,125.708) successfully generated nine 1920x1080 frames and additional probes, deterministic and immutable-input tests. This is a PARTIAL checkpoint of the larger context Child only.",
+    "The A6 S21–S23 pack and final audiovisual MP4 did not have observed execution evidence. Context Worker generation 2 was newly admitted at 16:56:52Z, so RUNNING means admission, not guaranteed on-host progress."
+  ],
+  "evidence_refs": [
+    "https://github.com/Tests4gptplay/git-agent-harness/commit/4e9790c490d71c10af59d0fdbc466f016444df06",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39049714095",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39049844765",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39051336915",
+    "https://github.com/Tests4gptplay/git-agent-harness/blob/main/evidence/world-execute-chatgpt-showcase-20261017/roles/worker/child-24461d64eca7c954b265c04e/wake-8279169dff8bf7b5fc3d1666.json"
+  ],
+  "unknown": [
+    "Planner final acceptance of the six-scene S18-S23 Child not established (only A5 partial physical checkpoint).",
+    "Whole-film 211.906667s audio-bearing MP4, 12-point AV audit, A7/A8 absent in observed evidence."
+  ],
+  "observer_commentary": {
+    "assessment": "中段七场景及接缝经真实 1080p 抽帧与测试确认，A5三个场景另形成九张实帧，进度推进至音乐约125.7秒；但A5只是六场景任务中的部分成果。",
+    "architecture": "Planner分包验收与Worker跨代衔接有效，RUNNING仅代表接单。未完成的A6不可借用已过关的A5宣称完整。",
+    "watch_next": "关注 A6 S21–S23 能否正常执行并保持已验收 A5 不变。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39051336915",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/4e9790c490d71c10af59d0fdbc466f016444df06"
+    ],
+    "uncertainties": [
+      "此处为事后按17:00截止恢复，非当时实时旁观。",
+      "A6及整首MV暂无实际执行/验收证据。"
+    ]
+  }
+}
