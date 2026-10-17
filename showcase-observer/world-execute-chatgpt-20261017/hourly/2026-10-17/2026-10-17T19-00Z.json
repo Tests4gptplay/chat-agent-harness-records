@@ -1,0 +1,56 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "hourly_observation",
+  "hour_utc": "2026-10-17T19:00:00Z",
+  "observed_at_utc": "2026-10-17T19:09:32Z",
+  "capture_method": "foreground manually verified read-only GitHub main state; no CAH actions dispatched",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "source_commit": "379f4a9c2da4076b62dbdd222ca53b40f6f74f01",
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "previous_ref": "showcase-observer/world-execute-chatgpt-20261017/hourly/2026-10-17/2026-10-17T15-00Z.json",
+  "gap_notice": "No observer snapshot was saved for UTC 16:00, 17:00, or 18:00; no historical hourly observations are invented.",
+  "parent": {
+    "task_id": "world-execute-chatgpt-showcase-20261017",
+    "last_observed_status": "PARKED_WAIT_EVENT",
+    "planner_activity": "WAKING",
+    "planner_generation": 2,
+    "pending_event": "helper_result claimed, not yet consumed at observation"
+  },
+  "current_worker": {
+    "child_task_id": "child-d24327c630cd9180d05b09a6",
+    "overall": "BLOCKED",
+    "generation": 4,
+    "source_ref": "cl/child-d24327c630cd9180d05b09a6.backend.json"
+  },
+  "verified_milestones": [
+    "Foreground task contract revision 2 communicated user's individual file restores; Planner directed same-Child A6 resumption, no duplicate parent.",
+    "Worker generation 4 proved archive/static source integrity and stopped prior to unsafe A6 execution.",
+    "Planner's bounded Helper inspected the primary Windows host read-only on run 39060400024 and found both original restored temporary script paths physically absent; no fresh Huorong alert/deletion actor identified.",
+    "Planner generation 2 received a Helper result and later authored a decision/advance commit at 2026-10-17T19:09:19Z."
+  ],
+  "unverified": [
+    "No new A6 S21-S23 executed scene pack or final 211.906667s music video validated",
+    "Absent temp scripts may reflect normal transient cleanup; no proof that Huorong intercepted either again",
+    "Fresh local A5 and 12 upstream immutable hash guards not checked due to fail-closed stop"
+  ],
+  "evidence_refs": [
+    "https://github.com/Tests4gptplay/git-agent-harness/commit/379f4a9c2da4076b62dbdd222ca53b40f6f74f01",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39060400024",
+    "https://github.com/Tests4gptplay/git-agent-harness/blob/main/evidence/world-execute-chatgpt-showcase-20261017/roles/helper/planner-helper-5355b5af64d19e7a1c1f234b.json"
+  ],
+  "observer_commentary": {
+    "assessment": "本轮有真实诊断进展而非MV画面进展：Worker完成A6源码哈希审查，Helper确认两份临时脚本当前已不存在。不能据此认定再次遭火绒拦截，A6仍未执行。",
+    "architecture": "Planner与Helper按安全门分工、跨代衔接成功，但临时文件生命周期与用户信任记录存在落差；此类验证应与最终脚本实例及正常执行路径绑定。",
+    "watch_next": "核对Planner下一步能否区分正常临时清理与安全拦截，并通过经过验证的执行链继续A6。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39060400024",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/379f4a9c2da4076b62dbdd222ca53b40f6f74f01"
+    ],
+    "uncertainties": [
+      "A6尚未有新物理渲染验收",
+      "原临时脚本缺失原因尚未证实"
+    ]
+  }
+}
