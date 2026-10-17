@@ -1,0 +1,68 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "hourly_retrospective_backfill",
+  "capture_method": "retrospective reconstruction using exact GitHub main commit not later than target UTC boundary, immutable Worker Results and GitHub Actions; NOT an observation performed at the named hour",
+  "reconstructed_at_utc": "2026-10-17T19:16:33Z",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "provenance_limit": "Historical Git state and timestamped Actions support claims as-of cutoff. Later findings are excluded. No evidence of continuous execution can be inferred merely from RUNNING; no actual past-hour observer execution is asserted.",
+  "hour_utc": "2026-10-17T16:00:00Z",
+  "as_of_cutoff_utc": "2026-10-17T16:00:00Z",
+  "source_commit": "36e7bda5be2f6b63d54e227ba0587c364aef6552",
+  "source_commit_time_utc": "2026-10-17T15:56:53Z",
+  "source_git_refs": {
+    "task_cell": "state/task_cells/world-execute-chatgpt-showcase-20261017.json",
+    "task_cell_blob_sha": "04c4d518301384aa982368615fa0ddfb826979bb",
+    "early_result": "evidence/world-execute-chatgpt-showcase-20261017/roles/worker/child-645cdad356d3d03fa6783767/wake-83c7a827f217a1ca9947972b.json",
+    "early_result_blob_sha": "5b474662033ab7894a151ac83195c27bd6f0396e"
+  },
+  "previous_ref": "showcase-observer/world-execute-chatgpt-20261017/hourly/2026-10-17/2026-10-17T15-00Z.json",
+  "parent": {
+    "status": "PARKED_WAIT_EVENT",
+    "planner_generation": 1,
+    "planner_activity": "WAKING",
+    "active_turn": "doorbell-a58bf7fd92ee62e3a4d93e6fc78e1536",
+    "pending_planner_result": "WAITING",
+    "terminal": false
+  },
+  "workers": [
+    {
+      "child_id": "child-645cdad356d3d03fa6783767",
+      "generation": 3,
+      "worker_result": "PASS / turn_signal=complete",
+      "planner_event": "worker_result CLAIMED, NOT YET CONSUMED at cutoff",
+      "scene_scope": "S01-S10 [0,59.223)"
+    }
+  ],
+  "observed_delta": [
+    "The original EARLY S01–S10 scene pack was physically generated and validated on gah-win-01; 10 full-HD PNG frames plus 20 timed samples, 30 hashed frames, deterministic/motion/caption/boundary/seam checks and a real contact sheet were recorded.",
+    "The early Worker durably completed at 15:55Z (result 5b474662...) and a Planner review doorbell was delivered by 15:56:53Z; Planner acceptance is NOT asserted at the historical cutoff.",
+    "An independent read-only S01/S02 preview export Action completed and preserved original preview artifacts; this is not a complete movie."
+  ],
+  "evidence_refs": [
+    "https://github.com/Tests4gptplay/git-agent-harness/commit/36e7bda5be2f6b63d54e227ba0587c364aef6552",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39046894883",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39046702789",
+    "https://github.com/Tests4gptplay/git-agent-harness/blob/main/evidence/world-execute-chatgpt-showcase-20261017/roles/worker/child-645cdad356d3d03fa6783767/wake-83c7a827f217a1ca9947972b.json"
+  ],
+  "unknown": [
+    "Whether the Planner subsequently accepted the scene pack is outside this historical cutoff.",
+    "No whole-song 211.906667s audio-bearing first cut or full-film QA exists in the verified record as of this cutoff."
+  ],
+  "observer_commentary": {
+    "assessment": "前十个原创场景完成真实 Windows 渲染与时间轴验证，30个带哈希采样及接缝记录构成实质进展；但16:00前仅能确认 Worker 完成，不能提前宣称 Planner 已验收。",
+    "architecture": "同一 Child 跨三代保存工作，审查和控制由 Planner 接手；正常代际续接不是故障恢复。",
+    "watch_next": "核验 Planner 接收 S01–S10 后是否进入独立中段制作，后续是否有完整音画而非单帧。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39046894883",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/36e7bda5be2f6b63d54e227ba0587c364aef6552"
+    ],
+    "uncertainties": [
+      "当时没有独立观察者实际在16:00采集，本条为事后重建。",
+      "S01–S10在此截止时尚未见Planner消费结果。"
+    ]
+  }
+}
