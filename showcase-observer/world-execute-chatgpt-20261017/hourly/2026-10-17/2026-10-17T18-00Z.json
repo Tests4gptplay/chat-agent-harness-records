@@ -1,0 +1,85 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "hourly_retrospective_backfill",
+  "hour_utc": "2026-10-17T18:00:00Z",
+  "as_of_cutoff_utc": "2026-10-17T18:00:00Z",
+  "reconstructed_at_utc": "2026-10-17T19:16:33Z",
+  "capture_method": "retrospective reconstruction from exact Git commit earlier than target UTC cutoff and immutable Actions/Planner/Helper evidence; not an observation performed at 18:00Z",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "source_commit": "70813cd10850dacd6247b96a14e3a71bcc2176c3",
+  "source_commit_time_utc": "2026-10-17T17:39:05Z",
+  "source_git_refs": {
+    "task_cell": "state/task_cells/world-execute-chatgpt-showcase-20261017.json",
+    "task_cell_blob_sha": "2999f87d06bd0c1cd39f63f11e1b9b06502585fe",
+    "context_child_backend": "cl/child-d24327c630cd9180d05b09a6.backend.json",
+    "context_child_backend_blob_sha": "69434dda731fbe8658dbef8181718cec7c81970e",
+    "planner_outcome": "state/planner_turns/world-execute-chatgpt-showcase-20261017/doorbell-6005eca8c0d68e09f7d5ef40be859f66/outcome.json",
+    "helper_result": "evidence/world-execute-chatgpt-showcase-20261017/roles/helper/planner-helper-0bfb959a734b44c8f9450f15.json"
+  },
+  "previous_ref": "showcase-observer/world-execute-chatgpt-20261017/hourly/2026-10-17/2026-10-17T17-00Z.json",
+  "parent": {
+    "status": "WAIT_USER",
+    "planner_generation": 1,
+    "planner_activity": "WAIT_USER",
+    "wait_kind": "NEED_USER",
+    "wait_selector": "foreground_intent",
+    "user_query_status": "CLAIMED; delivered_at not yet recorded at cutoff",
+    "terminal": false
+  },
+  "workers": [
+    {
+      "child_id": "child-d24327c630cd9180d05b09a6",
+      "generation": 3,
+      "status": "BLOCKED",
+      "scene_scope": "S18-S23 Child; genuine accepted A5 S18-S20 only, A6 S21-S23 NOT EXECUTED"
+    }
+  ],
+  "observed_delta": [
+    "Original A6 Windows Managed attempts 39052287495 (17:06Z) and 39052721378 (17:12Z) both failed at pwsh -File ObjectNotFound before the builder/scene/QA script body produced any markers. These are pre-semantic driver failures, not evidence of artistic rejection.",
+    "User directly confirmed Huorong intercepted CAH-generated temporary gah-managed-*.ps1 scripts. Specific historical alert classification, per-file quarantine and restoration history were not available from read-only Helper Windows event channels.",
+    "Bounded diagnostic Helper run 39053988919 passed a benign 52-byte script materialization/read/parser probe; primary Managed Runner listener healthy; known short wrapper observed later, but file reappearance timing alone does not identify security actor.",
+    "Planner consumed Helper evidence and durably entered NEED_USER / WAIT_USER, requesting exact Huorong event fields before proceeding. No user restoration/permission reported before this cutoff.",
+    "Accepted A5 physical frames and upstream original work remain protected. A6 S21-S23 and full 211.906667s audio-bearing MP4 were not executed or accepted."
+  ],
+  "observed_failures": {
+    "category": "MANAGED_TRANSIENT_PS1_PREINVOKE_OBJECT_NOT_FOUND",
+    "runs": [
+      39052287495,
+      39052721378
+    ],
+    "distinct_wrappers": true,
+    "semantic_A6_code_started": false,
+    "issue": "https://github.com/Tests4gptplay/git-agent-harness/issues/392",
+    "security_boundary": "User-reported actual Huorong interception confirmed; exact detection/path causality per job not established"
+  },
+  "evidence_refs": [
+    "https://github.com/Tests4gptplay/git-agent-harness/commit/70813cd10850dacd6247b96a14e3a71bcc2176c3",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39052287495",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39052721378",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39053988919",
+    "https://github.com/Tests4gptplay/git-agent-harness/issues/392",
+    "https://github.com/Tests4gptplay/git-agent-harness/blob/main/state/planner_turns/world-execute-chatgpt-showcase-20261017/doorbell-6005eca8c0d68e09f7d5ef40be859f66/outcome.json"
+  ],
+  "unknown": [
+    "Per-file Huorong detections/actions and whether particular files were restored at this historical cutoff.",
+    "No real A6 film frames or full-track audio/video QA.",
+    "This record was reconstructed later; it is not a contemporaneous 18:00Z observer run."
+  ],
+  "observer_commentary": {
+    "assessment": "A6两个不同包装脚本均在真正执行前失败，复现虽确认传输故障却未产出新画面。用户已观察到火绒拦截，具体告警分类仍不明确；Planner主动等待人工证据。",
+    "architecture": "Helper以只读诊断和轻量探针保住已验收A5，Planner通过NEED_USER显式交接权限；不能将预检故障包装成语义失败或Recovery成功。",
+    "watch_next": "确认用户逐文件审查决定和后续是否出现安全、透明的正常Managed执行路径。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39053988919",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/70813cd10850dacd6247b96a14e3a71bcc2176c3"
+    ],
+    "uncertainties": [
+      "18:00整点未实际运行观察者，此条为追溯。",
+      "火绒具体检测名称和A6再次启动的安全性未知。"
+    ]
+  }
+}
