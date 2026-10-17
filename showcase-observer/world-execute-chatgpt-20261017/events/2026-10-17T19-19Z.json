@@ -1,0 +1,163 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "retrospective_event_ledger_and_current_checkpoint",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "observation_window_utc": {
+    "from": "2026-10-17T15:00:00Z",
+    "to": "2026-10-17T19:19:28Z"
+  },
+  "observed_at_utc": "2026-10-17T19:19:28Z",
+  "retrospective": true,
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "source_commit": "44b4ff769dbc5a663fa538045a42d2a2c12e5ca8",
+  "source_commit_time_utc": "2026-10-17T19:19:02Z",
+  "source_state": {
+    "parent": "PARKED_WAIT_EVENT",
+    "planner_generation": 2,
+    "planner_activity": "PARKED_WAIT_EVENT",
+    "planner_wait": "WAIT_RESULT",
+    "current_child": "child-d24327c630cd9180d05b09a6",
+    "child_generation": 5,
+    "child_overall": "RUNNING",
+    "worker_ack_at_utc": "2026-10-17T19:16:14Z",
+    "child_backend_blob_sha": "2f4e5b9cf3a2c31a08e78d5126b2783d48dd11b3",
+    "task_cell_blob_sha": "cdb118cdb0c192fd59348f868cc32d78b0e5f87a",
+    "source_context": "RUNNING proves response-start admission; no new A6 render PASS observed by this checkpoint"
+  },
+  "milestones": [
+    {
+      "at_utc": "2026-10-17T15:55:06Z",
+      "kind": "worker_result",
+      "fact": "EARLY S01-S10 G3 result recorded complete; original 10-scene scene pack, 30 physical timed frames and contact/QA evidence.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39046894883",
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/62a5f288e44979a"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T16:35:44Z",
+      "kind": "worker_result",
+      "fact": "MIDDLE S11-S17 generation 2 completed with 21 real full-HD frame samples and 121 tests; terminal source and result verified.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39049844765",
+        "https://github.com/Tests4gptplay/git-agent-harness/blob/main/evidence/world-execute-chatgpt-showcase-20261017/roles/worker/child-24461d64eca7c954b265c04e/wake-8279169dff8bf7b5fc3d1666.json"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T16:53:35Z",
+      "kind": "partial_scene_milestone",
+      "fact": "Genuine A5 S18-S20 Windows host job completed with nine 1920x1080 frames plus probes and QA; not completion of S18-S23 child or entire song.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39051336915"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T17:06:42Z",
+      "kind": "driver_failure",
+      "fact": "A6 original large PowerShell wrapper failed at pwsh -File before A6 builder/scene marker.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39052287495"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T17:12:43Z",
+      "kind": "driver_failure",
+      "fact": "Distinct short readable PowerShell wrapper failed at the same preinvoke step; no A6 output. Endpoint security later confirmed by user as having intercepted CAH-generated .ps1, but exact file-to-event linkage and threat taxonomy not established.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39052721378",
+        "https://github.com/Tests4gptplay/git-agent-harness/issues/392"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T17:30:09Z",
+      "kind": "bounded_helper_diagnostic",
+      "fact": "Helper on cah-shot verified a benign temporary parser-only probe and original failed-wrapper state; no protected material/AV change and no A6 execution.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39053988919"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T17:38:33Z",
+      "kind": "planner_user_gate",
+      "fact": "Planner durably wrote NEED_USER following diagnosis and user-confirmed Huorong interception; task entered WAIT_USER without finishing parent.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/3e003a5b80faa4d",
+        "https://github.com/Tests4gptplay/git-agent-harness/blob/main/state/planner_turns/world-execute-chatgpt-showcase-20261017/doorbell-6005eca8c0d68e09f7d5ef40be859f66/outcome.json"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T18:25:19Z",
+      "kind": "foreground_intent",
+      "fact": "User independently manually restored/trusted two named original A6 scripts, gave same-task continuation approval but NOT a blanket CAH directory trust; Foreground Task Contract rev2 committed, Harness detected event and original Planner received it.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/08caaf654cacc3cbabc5d7145c1c068894f6d51c",
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/271e17ea5c85"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T18:42:03Z",
+      "kind": "worker_fail_closed_checkpoint",
+      "fact": "Same Child Worker G4 completed canonical static hash and source checks; returned BLOCKED rather than executing A6 without an on-host preinvoke gate; original A5 protected.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/28cdf4b73b88",
+        "https://github.com/Tests4gptplay/git-agent-harness/blob/main/evidence/world-execute-chatgpt-showcase-20261017/roles/worker/child-d24327c630cd9180d05b09a6/wake-754ce1b3f9cb3f0d62172750.json"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T18:58:22Z",
+      "kind": "bounded_helper_readonly_host_gate",
+      "fact": "Helper diagnostic Action intentionally failed its gate because both historical temporary A6 original files were absent when probed. Neither current per-file SHA/parser nor 14 frozen input hashes were measured; no A6 execution; absence alone not proof of renewed Huorong interception.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39060400024",
+        "https://github.com/Tests4gptplay/git-agent-harness/blob/main/evidence/world-execute-chatgpt-showcase-20261017/roles/helper/planner-helper-5355b5af64d19e7a1c1f234b.json"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T19:13:26Z",
+      "kind": "planner_review_direction",
+      "fact": "Planner G2 distinguished expected managed workflow temporary cleanup from fresh security evidence; authorized same blocked Child to attempt normal-path fail-closed hash/parser and 14 source guards before real A6.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/d61c1cd49b85828",
+        "https://github.com/Tests4gptplay/git-agent-harness/blob/main/state/planner_turns/world-execute-chatgpt-showcase-20261017/doorbell-a876fca696b55595958289263680ef83/outcome.json"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T19:16:14Z",
+      "kind": "worker_dispatch",
+      "fact": "Original context Child dispatched G5, actual Worker response-start ACK received; Planner waits for result.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39061582757",
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/d3f41bbbe67fc87"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T19:19:02Z",
+      "kind": "workflow_source_change_not_execution_proof",
+      "fact": "G5-era commits c26039fd and 44b4ff76 modified shared normal Managed host workflow to require strict UTF-8 and post-materialization exact hash/bytes/PowerShell parser checks and cleanup. This is code-change evidence, NOT yet observed on-host PASS or A6 rendering.",
+      "evidence": [
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/c26039fd0037ba59ccbfcf3d954d32b78dcb561b",
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/44b4ff769dbc5a663fa538045a42d2a2c12e5ca8"
+      ]
+    }
+  ],
+  "observer_commentary": {
+    "assessment": "此前缺失的三小时已按历史提交重建：实质成果是前20幕中的已验收场景与A5部分画面。A6遇到脚本启动故障，但两轮Helper与Worker没有牺牲源资产，现已找到临时文件正常清理的关键差异并进入G5。",
+    "architecture": "Planner G1→G2权限交接、Child G3→G5接续及Helper诊断均有落盘证据；并不意味着A6已经运行成功。新加的同次执行前hash/parser闸门尚待真实job验证。",
+    "watch_next": "跟踪G5首次实际Managed preinvoke测试，确认是否出现新的火绒告警，以及A6 S21–S23真实画面和14项受保护输入哈希。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/44b4ff769dbc5a663fa538045a42d2a2c12e5ca8",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39061582757",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39060400024"
+    ],
+    "uncertainties": [
+      "A6原始上下文构建器尚无新的完成证据。",
+      "没有观察到最终211.906667秒完整视频/音画抽检。",
+      "本事件中的历史时间取自Git/Actions，未伪造实时逐小时旁观。"
+    ]
+  },
+  "privacy": "Private observer record only. Do not publish raw user machine paths, private assets, audio or account identities.",
+  "non_interference": "All CAH reads only. New files written solely under showcase-observer/... in independent records repo."
+}
