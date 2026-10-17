@@ -1,0 +1,97 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "hourly_observation",
+  "hour_utc": "2026-10-17T15:00:00Z",
+  "observed_at_utc": "2026-10-17T15:04:02Z",
+  "previous_ref": "showcase-observer/world-execute-chatgpt-20261017/hourly/2026-10-17/2026-10-17T14-30Z.json",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "source_commit": "07f89efb9fce2ff8641c4ff164fdd69dad719ba8",
+  "source_git_refs": {
+    "task_cell": "state/task_cells/world-execute-chatgpt-showcase-20261017.json",
+    "task_cell_blob_sha": "57cf88022dbace299e702115be85b2dcefa9030a",
+    "worker_cls": [
+      "cl/child-6f9633833e2ca8d0ca2ed85f.backend.json",
+      "cl/child-3788be6ec7f9c9592c77b815.backend.json",
+      "cl/child-6d90a75633a6503857efb8ac.backend.json"
+    ]
+  },
+  "parent": {
+    "task_id": "world-execute-chatgpt-showcase-20261017",
+    "status": "PARKED_WAIT_EVENT",
+    "planner_generation": 1,
+    "planner_completed_semantic_turns": 3,
+    "planner_wait": "WAIT_RESULT",
+    "terminal": false
+  },
+  "workers": [
+    {
+      "child_id": "child-6f9633833e2ca8d0ca2ed85f",
+      "generation": 2,
+      "status": "DONE",
+      "planner_acceptance": "accepted original eight-act/36-block/129-cue design",
+      "verification_run": 39041177131
+    },
+    {
+      "child_id": "child-3788be6ec7f9c9592c77b815",
+      "generation": 2,
+      "status": "DONE",
+      "planner_acceptance": "accepted pinned release and MP3/129-cue bootstrap; duration 211.906667s",
+      "verification_run": 39041508424
+    },
+    {
+      "child_id": "child-6d90a75633a6503857efb8ac",
+      "generation": 2,
+      "status": "RUNNING",
+      "dispatch_id": "dispatch-b1e39925bf8aeeca2fc010a8",
+      "fence_token": "fence-1fe07b66db1dcaf1fd7abaa8",
+      "claimed_at_utc": "2026-10-17T15:00:00Z",
+      "result_ref": null,
+      "verification_run": 39042866631,
+      "independent_readback_run": 39043417404
+    }
+  ],
+  "observed_delta": [
+    "14:32 UTC: design artifacts physically reread with matching SHA256; 36 contiguous scene blocks, 8 acts, 129 cues (Windows run 39041177131).",
+    "14:34 UTC: additional Windows bootstrap script failure 39041319974; hash and provenance passed but semantic script failed. A corrected script in run 39041508424 passed parser, aliases, source hash, audio and cues.",
+    "14:40–14:47 UTC: Planner consumed and accepted both Child results and dispatched the renderer-core Child; main Task stays open.",
+    "14:50 UTC: real Windows Python/font/FFmpeg schema and codec probe completed, run 39042418505.",
+    "14:57 UTC: managed renderer-core job 39042866631 completed success; log shows isolated Pillow/fonttools venv, eight 1920x1080 PNG snapshots with SHA256, deterministic seeks, 1.2s INTERNAL H264/AAC video and decode, CORE_QA_SUMMARY 9_pass 0_fail.",
+    "14:59–15:00 UTC: normal renderer-core G1→G2 checkpoint/continuation; G2 claimed, no Worker Result yet.",
+    "15:03 UTC: separate artifact/codec readback run 39043417404 queued; not yet passed."
+  ],
+  "evidence_refs": [
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39041177131",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39041319974",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39041508424",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39042418505",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39042866631",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39043417404",
+    "https://github.com/Tests4gptplay/git-agent-harness/commit/175b062c5535"
+  ],
+  "observed_failures": {
+    "new_run": 39041319974,
+    "resolved_by_run": 39041508424,
+    "classification": "PowerShell wrapper/semantic script diagnostic and correction; not Watchdog/Helper recovery"
+  },
+  "unknown": [
+    "Second independent renderer-core disk readback was queued at capture.",
+    "Full 211.906667-second final film, original animated 36 scenes, twelve A/V cue tests, final delivery and Cleaner archive remain unverified.",
+    "Runtime RUNNING indicates admitted worker response, not continuous work proof."
+  ],
+  "observer_commentary": {
+    "assessment": "两项初始子任务已完成验收，源音频与129条歌词获得验证；新渲染核心在真实Windows环境通过九项测试并输出短片。脚本失败暴露了具体问题，修正后取得实质进展。",
+    "architecture": "Planner依据结果和磁盘证据逐阶段验收，Worker通过Checkpoint跨代接续。此轮没有证据表明Watchdog或Helper完成故障恢复，不能把普通G2交接宣传为Recovery。",
+    "watch_next": "核验新派发的独立文件读回，以及36场景能否复用渲染核心实现完整作品。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39041508424",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39042866631",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39043417404"
+    ],
+    "uncertainties": [
+      "实际艺术质量尚未审查",
+      "完整成片尚未制作"
+    ]
+  }
+}
