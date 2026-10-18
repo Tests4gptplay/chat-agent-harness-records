@@ -1,0 +1,118 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "independent_observer_event",
+  "event_type": "windows_forced_update_restart_and_git_canonical_task_continuation",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "observation_event_file_hour_utc": "2026-10-18T01:33:00Z",
+  "observed_at_utc": "2026-10-18T01:33:32Z",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "source_commit_at_observation": "bb1900643d312556fa6d57410354a17cf2525b85",
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "record_branch": "main",
+  "last_known_hourly_snapshot_ref": "showcase-observer/world-execute-chatgpt-20261017/hourly/2026-10-17/2026-10-17T19-00Z.json",
+  "no_retrospective_hourly_fabrication": true,
+  "user_report": {
+    "operating_system": "Windows",
+    "event": "Windows Update forced a computer reboot; user restarted the computer, after which CAH was brought back into use",
+    "approximate_local_time": "2026-10-18 around 06:00 Asia/Tokyo",
+    "time_certainty": "User estimate; originally described ~04:00, then corrected to about ~06:00; exact reboot/system uptime not independently checked",
+    "source_class": "user-reported, not Windows Event Log",
+    "was_this_actual_power_failure": false,
+    "note": "An OS restart is not proof of surviving mains-power loss, storage flush failure, or forced termination at an arbitrary write boundary"
+  },
+  "durable_git_before_reported_reboot": {
+    "reference_commit": "fb4b7298ea726775bc41a62d71bef6c612a03039",
+    "reference_commit_at_utc": "2026-10-17T19:45:51Z",
+    "parent_task_cell_status": "WAIT_USER",
+    "planner_activity": "WAIT_USER",
+    "planner_wait": "NEED_USER",
+    "evidence_ref": "https://github.com/Tests4gptplay/git-agent-harness/commit/fb4b7298ea726775bc41a62d71bef6c612a03039",
+    "scope_caveat": "At last verified pre-reboot checkpoint the parent was waiting for user input; there was no demonstrated interrupted in-flight Worker computation restored exactly where it stopped"
+  },
+  "observed_post_restart_chain": [
+    {
+      "at_utc": "2026-10-18T00:24:29Z",
+      "event": "Start_CAH.ps1 reported successful CAH startup/health verification: existing Bridge, managed/short runners and reusable Playwright Host/CDP present",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39082569322",
+      "caveat": "Playwright Host was reused, not newly created in that run. The Action later failed in its additional Git FETCH_HEAD readback, not in Start_CAH startup; does not establish boot-to-service availability latency"
+    },
+    {
+      "at_utc": "2026-10-18T00:24:34Z",
+      "event": "Harness detected the existing parent's task-contract revision-3 Foreground intent as a durable Git change and committed an event",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/commit/87eb70c700396e176e49c8a97f37d57e276d2de2"
+    },
+    {
+      "at_utc": "2026-10-18T00:25:18Z",
+      "event": "Harness staged a Planner semantic turn for the SAME managed parent task, preserving task identity",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/commit/9804cd6dbea5ccf740dfd23d923b665740258c19"
+    },
+    {
+      "at_utc": "2026-10-18T00:25:56Z",
+      "event": "Exact Planner prompt delivery completed as a canonical control-request update",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/commit/72d1004b623f76f849754b399a4d8babe9e69c5b"
+    },
+    {
+      "at_utc": "2026-10-18T00:30:35Z",
+      "event": "Planner wrote a direction for the original A6 Child using an auditable direct-Python Managed execution redesign",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/commit/e780c1389abd152024b7ca5d08a8121ec49ab5d5"
+    },
+    {
+      "at_utc": "2026-10-18T00:46:54Z",
+      "event": "Same logical Child generation 7 was admitted after the user-intent transition, via standard transport/admission",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/blob/main/cl/child-d24327c630cd9180d05b09a6.backend.json",
+      "caveat": "Generation change is normal Worker continuation, not independent proof of watchdog-triggered fault recovery"
+    },
+    {
+      "at_utc": "2026-10-18T01:21:26Z",
+      "event": "Same logical Child generation 10 admitted on lane-00; no new parent task was required",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/commit/1581e2d0bd7eec535c83b00443d7f61781cd667f"
+    }
+  ],
+  "measured_resume_intervals": {
+    "host_health_to_intent_detection_seconds": 5,
+    "host_health_to_planner_turn_staging_seconds": 49,
+    "host_health_to_planner_prompt_completion_seconds": 87,
+    "caution": "Intervals compare recorded checkpoint timestamps and do NOT measure actual Windows reboot duration or prove restart action caused the pre-existing Host to resume"
+  },
+  "production_after_recovery": {
+    "real_qa_evidence": [
+      {
+        "run_id": 39085821287,
+        "result": "PASS: host verification 14/14 protected file hashes, original Python builder blob and Python AST; preflight only"
+      },
+      {
+        "run_id": 39085883716,
+        "result": "FAIL: direct-Python A6 scenes S21-S23 source actually patched, real full-suite QA found S23 subtitle-safe-band contamination"
+      },
+      {
+        "run_id": 39086755846,
+        "result": "FAIL: G10 real-pixel S23 diagnosis and narrow patch succeeded, full-suite QA then found S21 subtitle-safe-band violation"
+      }
+    ],
+    "current_task_cell_status_at_capture": "PARKED_WAIT_EVENT",
+    "current_planner_activity_at_capture": "WAKING",
+    "current_worker_generation_at_capture": 10,
+    "current_worker_status_at_capture": "DONE",
+    "observed_limitations": "A6 S18-S23 whole pack is not accepted; A7/A8 S24-S36 and full 211.906667s final MP4 are not yet independently verified"
+  },
+  "observer_commentary": {
+    "assessment": "这次出现可核验的跨重启持久化接续：同一任务的 Git 状态保留，恢复在线后 Planner 接收新用户意图，Worker 继续原 Child，并在真实 Runner 上推进 A6。画面 QA 仍未通过，不能算成片。",
+    "architecture": "证明了 Git canonical 状态与任务身份、事件、代际接续的实际韧性；未证明停机瞬间在途计算可精确恢复，也不能把正常 G+1 说成 Watchdog/Helper Recovery，更不能等同于断电一致性测试。",
+    "watch_next": "核验 S21/S23 字幕安全区域的修复和六场景正式验收；如做正式断电容错测试，应隔离模拟并证明在途写入原子性及恢复边界。",
+    "confidence": "medium",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39082569322",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/87eb70c700396e176e49c8a97f37d57e276d2de2",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/9804cd6dbea5ccf740dfd23d923b665740258c19",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39085883716",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39086755846"
+    ],
+    "uncertainties": [
+      "Exact OS reboot time and Windows Update shutdown Event Log were not read",
+      "No test of sudden electrical power interruption or disk crash consistency",
+      "No verified in-flight interrupted Worker mid-operation replay from an OS restart"
+    ]
+  },
+  "privacy": "Private evidence only; anonymize host/account identifiers, absolute Windows paths, unrelated conversation identity and private artifact URLs before public Showcase"
+}
