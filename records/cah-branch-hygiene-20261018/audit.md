@@ -196,3 +196,28 @@ User direction: **do not delete release/history branches merely to reduce branch
 - **No release or Viewer branch deletion.** No changes to separate MMCA/Cache research repositories.
 - New write to CAH main was limited to the existing reusable `.github/workflows/foreground-direct-command.yml` slot to run exact guarded deletion. No new branch created.
 - Closing #149 does not certify completion of Issue #148. Unresolved PRs #330/#349 and task branches #327/#384 require explicit technical evaluation rather than mass cleanup.
+
+---
+
+## Phase 5: user-approved closure of four deferred items (2026-10-18)
+
+**Direct user decision:** all four pending entries (#327, #384, draft PR #330, draft PR #349) may be closed and their branches deleted. This is intentional disposition of *unmerged* work, not a claim that those changes were merged, or the underlying technical issue was fixed.
+
+### Pinned delete candidates (initial pre-write inventory)
+
+| Branch | Exact HEAD SHA | Associated issue | PR |
+|---|---|---|---|
+| `docs/draco-cn14-three-way-case-384` | `199147df9e6da4c451b32f99a31eeacd9dd3d23a` | #384 | none |
+| `fix/327-worker-lease-helper-recovery` | `1bba29aab4d6b99b586e36329dd319c793fd5625` | #327 | none |
+| `fix/329-conversation-load-retry` | `0407a0286dc803bae07fc3ea11822e6dda69b6f3` | #329 | #330 (draft) |
+| `fix/348-planner-turn-ceiling` | `fb27dc33d6e134b6b94113fe1a3894d86c74b969` | #348 | #349 (draft) |
+
+### Required action and negative constraints
+
+1. Close PRs #330 and #349 *without merging*; keep their immutable issue/PR descriptions and commit SHAs recoverable via audit references.
+2. Close issues #327, #329, #348, #384 as `not_planned` upon direct user direction, without marking any technical acceptance complete.
+3. Delete only the four SHA-pinned exact branch heads after verifying their unchanged SHA, absence of open PRs, original user-requested closure state, and no active task identity match.
+4. Preserve `main`, historical public release branches `release/public-1.0.4` and `release/public-1.0.4-verified`, and Viewer branches `showcase/viewer-v18-preview-001-cooked-exec` and `work/viewer-v18-preview-001-native` unchanged.
+5. Do not close Issue #148 or any unrelated Issue; do not edit active CAH Task Cell, Cache Study or MMCA project content.
+
+**Important:** This table is an immutable pre-action inventory. Completion and remote readback are recorded in a separate post-action section only after actual success.
