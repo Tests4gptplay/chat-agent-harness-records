@@ -1,0 +1,82 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "independent_observer_event",
+  "event_type": "first_full_original_song_av_mp4_render_completed_and_technical_qa_passed",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "observation_bucket_utc": "2026-10-18T05:09:00Z",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "source_commit_at_observation": "463c2d1d371dcb3845f3c2ec3d76879c55db8fd3",
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "record_branch": "main",
+  "canonical_task_at_observation": {
+    "status": "PARKED_WAIT_EVENT",
+    "planner_activity": "ACTIVE",
+    "latest_updated_at": "2026-10-18T05:06:01+00:00"
+  },
+  "evidence_scope": "Externally verified GitHub Actions run, original log markers and explicitly checked-in final-render source; no independent direct disk read of protected Windows output by this observer.",
+  "source_action": {
+    "run_url": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39097948802",
+    "run_id": 39097948802,
+    "job_id": 117588177105,
+    "status": "completed",
+    "conclusion": "success",
+    "started_utc": "2026-10-18T04:41:10Z",
+    "completed_utc": "2026-10-18T05:03:37Z",
+    "runner": "gah-win-01",
+    "markers": [
+      "P3_ENCODE_START",
+      "P3_ENCODE_PROGRESS (900..6358 frames)",
+      "P3_FULL_FILM_RECEIPT",
+      "P3_FULL_FILM|PASS"
+    ],
+    "source_ref": "evidence/full-render/p3-render-encode-g1.py"
+  },
+  "observed_first_cut": {
+    "protected_project_dir": "E:\\CAH-Workloads\\world-execute-chatgpt-20261017",
+    "relative_mp4": "deliverables/world-execute-me-original-36scene-first-full-1080p30-h264-aac.mp4",
+    "source_video": "Original deterministic S01–S36 scene plugins under native compositor, full 129 original cue timeline",
+    "audio": "Protected original-song MP3 muxed to AAC, original media not copied into public Git",
+    "target_frames": 6358,
+    "actual_frames_written_to_pipe": 6358,
+    "original_scenes_entered": 36,
+    "original_cues_visited": 129,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "ffprobe_format_duration_s": 211.933333,
+    "original_audio_duration_s": 211.906667,
+    "measured_tolerance_delta_s": 0.026666,
+    "file_size_bytes": 17723473,
+    "file_sha256": "adb7ed17c904bc8b8670834bb667cf5dfd8da8ffe4d78152e83b1fafe2f82fa1",
+    "independent_full_decode_via_runner": true,
+    "encoded_qa_sample_count": 47,
+    "host_receipt": "evidence/full-render/receipt.json",
+    "host_encoded_contact": "evidence/full-render/encoded-frame-montage.jpg",
+    "artifact_storage_caveat": "Both are in protected Windows task directory; only logs, source, small indices in canonical Git. This observer did not stream/read the final MP4 or visually inspect the encoded full-film montage."
+  },
+  "not_yet_concluded": [
+    "P3 Child accepted by Planner after reviewing actual completed job and host receipts",
+    "P4 independent whole-film subjective art, audio-sync, caption playback and localized QA",
+    "P5 truthful CAH showcase and V1 autonomous-cut provenance finalization",
+    "P6 delivery manifest, user access and Harness terminal records.md archive"
+  ],
+  "v1_preservation_note": "This is the first completed audio-bearing version generated without user scene-by-scene aesthetic directions. Preserve its exact SHA/output as the autonomous V1 baseline before any optional human-directed revisions; not a command to interrupt active CAH or force changes.",
+  "observer_commentary": {
+    "assessment": "第一次完整211.9秒原曲视频真实完成：6358帧、36场景、129个Cue，H.264/AAC、全片解码和47处编码画面QA均由原生Windows动作证实。这是成片里程碑，不再只是场景素材。",
+    "architecture": "跨多代Worker及Planner，模型把冻结的分幕程序图形合成为可解码影片；单一长耗时Runner任务与短对话代际解耦，验证了持久外部作业接续的工程价值。",
+    "watch_next": "检查实际MP4、整片Montage与音画同步，由Planner/P4验收后保存未经人类美术修改的V1。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39097948802",
+      "https://github.com/Tests4gptplay/git-agent-harness/blob/main/evidence/full-render/p3-render-encode-g1.py"
+    ],
+    "uncertainties": [
+      "No independent direct Windows readback by this observer outside of original Action",
+      "P3 Planner acceptance/P4 full-film aesthetic and A/V signoff remains pending"
+    ]
+  },
+  "privacy": "Private archive; don't publish protected song/MP4, personal account info or absolute host path without separate authorization and redaction."
+}
