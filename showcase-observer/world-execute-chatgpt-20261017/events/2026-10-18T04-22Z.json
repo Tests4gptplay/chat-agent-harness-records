@@ -1,0 +1,196 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "manual_retrospective_event_ledger",
+  "event_type": "a6_security_redesign_through_36_scene_acceptance_and_p3_first_full_film_start",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "observed_at_utc": "2026-10-18T04:22:03Z",
+  "retrospective_window_utc": {
+    "from": "2026-10-17T19:19:02Z",
+    "to": "2026-10-18T04:22:03Z"
+  },
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "source_commit_at_observation": "6835900ec684cfb2dee1245bc166e90294dcd924",
+  "previous_events": [
+    "showcase-observer/world-execute-chatgpt-20261017/events/2026-10-17T19-19Z.json",
+    "showcase-observer/world-execute-chatgpt-20261017/events/2026-10-18T01-33Z.json",
+    "showcase-observer/world-execute-chatgpt-20261017/events/2026-10-18T03-20Z.json"
+  ],
+  "capture_method": "Manual retrospective event reconstruction from original GitHub main commit timestamps, canonical Worker/Planner Results, host Actions and preexisting independent observer event records; event_at times are source log times not claimed observer run times.",
+  "milestones": [
+    {
+      "at_utc": "2026-10-17T19:38:51Z",
+      "type": "worker_fails_closed",
+      "claim": "Same context Child G6 hit ReadAllBytes Access Denied on a newly materialized managed temp PS1 before Python A6 code execution; endpoint security attribution not proven. Original A5 retained.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39063070423"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T19:45:51Z",
+      "type": "planner_need_user",
+      "claim": "Planner G2 entered WAIT_USER requesting file-specific Huorong information/trust decision on new G6 temp PS1; no business execution while waiting.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/fb4b7298ea726775bc41a62d71bef6c612a03039"
+      ]
+    },
+    {
+      "at_utc": "2026-10-17T23:59:37Z",
+      "type": "foreground_rev3",
+      "claim": "User rejected repeated trust exemptions and authorized a transparent engineering execution-path redesign while prohibiting AV disable and global whitelist. Foreground Task Contract revision 3 committed; same parent task retained.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/e6378fa3e8d5efdd1643c5dd73217385eb0c300b"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T00:24:29Z",
+      "type": "reported_reboot_and_verified_start",
+      "claim": "An existing Windows Update reboot was user-reported (~06:00 JST, not system-log verified). Subsequent Start_CAH host startup/health check recorded live Bridge, runners and reusable browser host; separate Action final auxiliary Git readback failed. Do not label exact power-loss/disk-consistency recovery.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39082569322",
+        "showcase-observer/world-execute-chatgpt-20261017/events/2026-10-18T01-33Z.json"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T00:46:54Z",
+      "type": "same_child_resume",
+      "claim": "Git revision-3 intent was detected and original Planner/Worker identity continued; original context Child G7 normal response-start confirmed on same parent. This is an actual durable task continuation, not proof of in-flight mid-write replay.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/87eb70c700396e176e49c8a97f37d57e276d2de2",
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/e780c1389abd152024b7ca5d08a8121ec49ab5d5"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T01:15:51Z",
+      "type": "a6_readonly_guard",
+      "claim": "Existing protected 14/14 source hashes plus reviewed transparent Python builder preflight passed on normal Managed host; real builder/scene acceptance distinct and later.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39085821287"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T01:16:57Z",
+      "type": "a6_real_semantic_failure",
+      "claim": "A6 direct Python actually executed and found S23 subtitle-safe-band violation; later S21 perimeter issue also found. The failures produced specific frame-pixel defects rather than repeated PS1 driver blockage.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39085883716",
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39086755846"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T01:55:08Z",
+      "type": "a6_physical_qa_pass",
+      "claim": "Bounded source repair G12 completed normal primary Managed S18–S23 six-scene full original QA PASS, 18 full-HD hashed image samples, 26 additional probes, preserved accepted A5/upstream hashes; not yet parent acceptance.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39088170407",
+        "https://github.com/Tests4gptplay/git-agent-harness/blob/main/evidence/scene-authoring/context/a5-a6-g12-g13-visual-acceptance.json"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T01:58:12Z",
+      "type": "a6_independent_visual_review",
+      "claim": "Separate G13 read-only physical SHA/1080p review of eight source-linked frames and actual 6x3 contact produced evidence. Dark S19/S20 aperture aesthetic risk remains for full-film QA.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39088352194"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T02:15:00Z",
+      "type": "context_acceptance_and_a7_dispatch",
+      "time_precision": "approximate/bounded by Planner and subsequent A7 wake, not exact independent acceptance timestamp",
+      "claim": "Planner accepted bounded context Child S18–S23 only; subsequent A7 S24–S29 original fixed-purpose plaintext normal Managed source Child dispatched. All S01–S23 now backed by source/QA evidence, no full music film yet.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39089432731"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T02:56:39Z",
+      "type": "a7_host_qa_pass",
+      "claim": "A7 S24–S29 G4 physical run 39091833653 succeeded with 202/202 assertions, 18 1080p SHA-checked frames and 17 protected input guards, after bounded earlier G2/G3 genuine motion/fade failures.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39091833653",
+        "https://github.com/Tests4gptplay/git-agent-harness/blob/main/evidence/world-execute-chatgpt-showcase-20261017/a7-g4-final-visual-review.json"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T03:12:52Z",
+      "type": "a7_planner_acceptance",
+      "claim": "Planner formally accepted only the A7 six-scene pack and outgoing S29 seam; A8 seven-scene final act was separately dispatched.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/81b1046ed66e"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T03:55:22Z",
+      "type": "a8_physical_qa_pass",
+      "claim": "A8 final S30–S36 seven original scene source plugins real host G3 run passed 1,353 assertions, 21 distinct SHA-verified 1080p RGBA frames, 13 original cues and 14 quiet probes, exact last-frame/end marker; no encoded full film.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39094134312"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T04:01:12Z",
+      "type": "a8_independent_fullhd_review",
+      "claim": "G4 read-only normal primary review independently rechecked 21 source PNG hashes and showed seven full-HD JPEG proxies. Contact-level weak contrast and compositional depth noted for later P4 film review.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39095606057"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T04:13:54Z",
+      "type": "a8_planner_acceptance",
+      "claim": "Planner explicitly accepted only A8 original scene pack; 36 scene plugin modules now bounded-accepted, not a completed audiovisual MV.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/68005b2cd145"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T04:18:15Z",
+      "type": "p3_first_fullfilm_child_admission",
+      "claim": "New P3 36-scene original 211.906667s soundtrack-bearing H.264/AAC full-cut integration Child admitted in lane-01; original A8 Child not overwritten, Planner stays parked WAIT_RESULT.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39096588377",
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/d1259b0825"
+      ]
+    },
+    {
+      "at_utc": "2026-10-18T04:21:39Z",
+      "type": "p3_normal_primary_preflight_started",
+      "claim": "P3 Worker submitted source/audio/native renderer/FFmpeg inventory and fixed-purpose host preflight Action 39096814151; run was in_progress at 04:22Z. Do not present as a finished 211.906667-second MP4.",
+      "sources": [
+        "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39096814151",
+        "https://github.com/Tests4gptplay/git-agent-harness/commit/6835900ec684cfb2dee1245bc166e90294dcd924"
+      ]
+    }
+  ],
+  "task_scope_at_capture": {
+    "parent_status": "PARKED_WAIT_EVENT",
+    "planner_generation": 2,
+    "active_child": "child-e7ba4d33238006a357dcd571",
+    "active_child_generation": 1,
+    "active_child_status": "RUNNING",
+    "accepted_scene_packs": "S01-S36",
+    "missing": "first complete audio-bearing MP4, independent full-film QA, 12+ actual audio-visual checks, P5 private showcase settlement and P6 delivery",
+    "no_terminal_certification": true
+  },
+  "observer_commentary": {
+    "assessment": "停滞的A6经用户授权的透明Python改造、真正的字幕像素缺陷修复与两轮独立真帧审查得到验收。后续A7、A8亦完成源级美术验证，首次完整有声影片已开始P3前检，但尚无成片。",
+    "architecture": "语义Planner跨G2、Worker多代、Helper有限诊断与Git外部状态提供真实接续；断电瞬间在途数据精确恢复尚未证明。新的独立P3 Child避免把已验收素材与音视频集成混为一谈。",
+    "watch_next": "首先看P3 39096814151正常Host是否通过输入哈希/音频编解码预检；随后追踪真实全长MP4 SHA和音画全解码结果。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39088170407",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39091833653",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39094134312",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39096814151"
+    ],
+    "uncertainties": [
+      "No verified complete soundtrack-bearing video or P4 quality audit yet.",
+      "Model per-generation identity not independently established.",
+      "OS reboot timestamp approximate and based on user report; no confirmed power-loss consistency test."
+    ]
+  },
+  "privacy": "Private observer only, future public release needs sanitized machine paths, private audio, account identities and third-party assets.",
+  "non_interference": "CAH main and workflows read only in this observation. New JSON only in records repository."
+}
