@@ -1,0 +1,101 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "hourly_manual_delayed_observation",
+  "hour_utc": "2026-10-18T04:00:00Z",
+  "observed_at_utc": "2026-10-18T04:22:03Z",
+  "observation_lag_minutes": 22,
+  "capture_method": "Manually read GitHub main and existing canonical Task Cell, exact Child CL and Actions at 04:22Z. NOT a 04:00 exact-time auto-observation. Distinguish 04:00 historical cutoff from latest actual observation.",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "previous_ref": "showcase-observer/world-execute-chatgpt-20261017/hourly/2026-10-18/2026-10-18T03-00Z.json",
+  "at_hour_boundary": {
+    "source_commit": "8e2fd0e3b7516e1a58cd23d765bb3548967ff2c4",
+    "source_commit_time_utc": "2026-10-18T03:57:14Z",
+    "task_cell_blob_sha": "75aa7f83dc652a75e1f1402775997f62207ec7a7",
+    "planner_generation": 2,
+    "parent_status": "PARKED_WAIT_EVENT",
+    "worker": {
+      "child_id": "child-0067328fa4575aa2b5517619",
+      "generation": 5,
+      "overall": "RUNNING",
+      "bounded_art_scope": "A8 seven-scene source/physical QA, not final MP4"
+    },
+    "historical_limit": "At exact 04:00Z, A8 had NOT YET obtained Worker final result or Planner acceptance. Do not retroactively move the 04:04–04:18 transitions before the boundary."
+  },
+  "observed_current": {
+    "source_commit": "6835900ec684cfb2dee1245bc166e90294dcd924",
+    "source_commit_time_utc": "2026-10-18T04:21:37Z",
+    "task_cell_blob_sha": "a516b516238e5204be2473342a193426d73fabff",
+    "parent_status": "PARKED_WAIT_EVENT",
+    "planner_generation": 2,
+    "planner_activity": "PARKED_WAIT_EVENT",
+    "planner_wait": "WAIT_RESULT",
+    "current_child": {
+      "id": "child-e7ba4d33238006a357dcd571",
+      "generation": 1,
+      "overall": "RUNNING",
+      "dispatch_id": "dispatch-9cb6c7007d715fb2f0efba14",
+      "response_started_at": "2026-10-18T04:18:15Z",
+      "backend_blob_sha": "48342b3716cc697d0a8ec14835593e4062257c57"
+    },
+    "current_action": {
+      "id": 39096814151,
+      "name": "CAH Showcase P3 original 36-scene full A/V render",
+      "status": "in_progress",
+      "conclusion": null,
+      "created_at": "2026-10-18T04:21:39Z",
+      "classification": "P3 physical native scene/audio/capability preflight dispatched; an in_progress Actions label does not prove the finished 211.906667-second MP4 exists."
+    },
+    "verified_completed_scopes": [
+      {
+        "scope": "S01–S23 original source scene packs",
+        "status": "Worker source and physical QA accepted",
+        "evidence": "evidence/scene-authoring/context/a5-a6-g12-g13-visual-acceptance.json"
+      },
+      {
+        "scope": "A7 S24–S29",
+        "status": "Planner ACCEPT after 202/202 real QA, 18 original 1080p frames",
+        "evidence": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39091833653"
+      },
+      {
+        "scope": "A8 S30–S36",
+        "status": "Planner ACCEPT after 1353 assertions, 21 original 1080p frames and independent full-res visual review",
+        "evidence": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39094134312"
+      }
+    ],
+    "unverified": "No playable full original soundtrack MP4, full-film continuous visual/audio QA, >=12 real encoded audiovisual sync checkpoints or parent A1-A8 terminal acceptance observed at 04:22Z."
+  },
+  "observed_delta": [
+    "At 04:04:54Z A8 G5 wrote a real Child completion result after G3/G4 physical source QA; Planner inspected source-linked contact and seven 1080p proxies, then formally ACCEPTED only A8 scene pack by 04:13:54Z.",
+    "P3 first COMPLETE 36-scene 211.906667-second original audio-bearing H264/AAC MP4 was separately dispatched to a NEW Child (lane-01), not a duplicate A8 scene Child; G1 physical response-start acknowledged 04:18:15Z.",
+    "At 04:21Z P3 Worker created guarded plain-text normal Managed workflow, dispatcher, scene/audio inventory and submitted run 39096814151, status in_progress at observation. It is not evidence of actual video encode completion."
+  ],
+  "evidence_refs": [
+    "https://github.com/Tests4gptplay/git-agent-harness/commit/8e2fd0e3b7516e1a58cd23d765bb3548967ff2c4",
+    "https://github.com/Tests4gptplay/git-agent-harness/commit/6835900ec684cfb2dee1245bc166e90294dcd924",
+    "https://github.com/Tests4gptplay/git-agent-harness/commit/68005b2cd145",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39094134312",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39095606057",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39096588377",
+    "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39096814151",
+    "https://github.com/Tests4gptplay/git-agent-harness/blob/main/state/planner_turns/world-execute-chatgpt-showcase-20261017/doorbell-0ff2bb4935ecf9eb7183d08cd046e969/outcome.json"
+  ],
+  "observer_commentary": {
+    "assessment": "全部36场景源码和真实抽帧已经过独立任务验收。当前P3首次整首视频集成已获Planner派工且Worker实际接收，Windows作业正在运行，但尚无完整有声MP4或最终音画测试结论。",
+    "architecture": "Planner把场景制作与音画合成分设独立Child，并要求保护前序哈希、生成可复现编码链，避免因A8通过就误宣告父任务完成。",
+    "watch_next": "核验P3作业真正通过源素材检查、整首视频编码及ffprobe/全解码/129条cue和12处以上音画抽查，再评估实片美术质量。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/68005b2cd145",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39096814151"
+    ],
+    "uncertainties": [
+      "No verified full-length audio-bearing MP4 as of capture.",
+      "Reported host/job progress may evolve after this observation; do not treat it as terminal.",
+      "04:00 exact cutoff and 04:22 delayed manual observation are distinct."
+    ]
+  },
+  "non_interference": "Observer wrote only independent records; no modifications to CAH main, Runner, tasks, Actions workflows, issue or user endpoint security."
+}
