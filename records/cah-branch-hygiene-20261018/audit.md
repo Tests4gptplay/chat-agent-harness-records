@@ -163,3 +163,36 @@ Do not create a temporary cleanup branch, and do not touch CAH task state or any
 - The historical release lines are independently divergent; Viewer native vs Cooked-exec lines diverge; do not delete either pair until their unique code and evidence is archived or merged appropriately.
 - The three surviving open PRs require fresh base-state engineering review before merge or closure. In particular #149 contains an old `extension/lane_clear_runtime.js` path absent on modern main; do not merge it unchanged. #330 introduces browser Retry handling not found in the current `playwright_host/ui.py`; #349 targets semantic-turn ceiling while current main has a separate `prompt_ceiling` implementation. These PRs were intentionally not closed, merged or deleted.
 - This audit was written in `Tests4gptplay/chat-agent-harness-records`, not to the MMCA research tree. There were no writes to either `temp/work/cache-study` or `temp/work/micro-model-composite-architecture-20261016` during Phase 3.
+
+
+## Phase 4: Conservative value-based review — 2026-10-18
+
+User direction: **do not delete release/history branches merely to reduce branch count**. Preserve any branch with independent reproducibility, code, evidence or rollback value; delete only clearly obsolete references. Viewer task was reported completed by the user, but that fact does not make distinct unmerged Viewer source/evidence automatically disposable.
+
+### Actual deletion: obsolete PR #149
+
+- [PR #149](https://github.com/Tests4gptplay/git-agent-harness/pull/149) closed **unmerged** after documenting why its implementation is superseded. Old changes target `extension/lane_clear_runtime.js`, a retired Chrome Extension file not present on current main.
+- Current Playwright Host `playwright_host/runtime.py::_clean_task_conversations` enumerates exact task-and-epoch-owned conversation targets, persists per-target deletion receipts, then on accepted cleanup invokes `HostState.clear_task_roles` and `HostState.remove_lineage` for the exact task and each lane; `playwright_host/state.py` owns task-scoped `task_pools`. The old Extension-era patch should not be merged into the modern architecture.
+- [Issue #148](https://github.com/Tests4gptplay/git-agent-harness/issues/148) is deliberately still **OPEN**, since the old PR closure is not a substitute for a live terminal-cleanup acceptance/regression. If the old failure recurs, develop against Playwright Host, not `extension/`.
+- Branch `fix/148-cleaner-lane-residue` pinned HEAD `23f88a942bca7bdd2ae1d4f8cb08b3325f43b379` removed via [cah-shot run 39096257715](https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39096257715). Run status `completed/success`; remote ref re-read confirms absence.
+- Total CAH refs now **9**: `main` plus eight retained refs; two open PRs (#330, #349). Net removals since 74-ref inventory: **65**.
+
+### Eight retained non-main branch refs and reasons
+
+| Branch | Pinned SHA | Retention rationale / next gate |
+|---|---|---|
+| \`docs/draco-cn14-three-way-case-384\` | \`199147df9e6da4c451b32f99a31eeacd9dd3d23a\` | Issue #384 open; independent migration results and candidate Skill adjustments absent on main. Inspect accepted deliverable + whether evidence should enter Skill or separate task archive before considering deletion. |
+| \`fix/327-worker-lease-helper-recovery\` | \`1bba29aab4d6b99b586e36329dd319c793fd5625\` | Issue #327 open; 11 unique commits and historical worker_recovery.py absent on main; current lifecycle has evolved. Requires semantic diff against modern Helper/watchdog behavior before deciding reuse/discard. |
+| \`fix/329-conversation-load-retry\` | \`0407a0286dc803bae07fc3ea11822e6dda69b6f3\` | Draft PR #330 open; adds bound ChatGPT retry handling and tests not observed on main. Rebase/redesign/test against current Playwright before merge/close. |
+| \`fix/348-planner-turn-ceiling\` | \`fb27dc33d6e134b6b94113fe1a3894d86c74b969\` | Draft PR #349 open; current main uses prompt_count/prompt_ceiling, PR counts completed semantic Planner turns. Related but *not identical*. Require policy choice and regression comparison before closing/merging. |
+| \`release/public-1.0.4-verified\` | \`885a87f7a73e338b0156d5ffe5fd0d212e4a37e4\` | 13 unique commits, publication/verification/export scripts distinct from other release line. Public v1.0.4 is tagged and released with ZIP/asset digest but does not replace private build history. KEEP. |
+| \`release/public-1.0.4\` | \`886fed8d862e995671324a7d4e48ca7b966dfedb\` | 13 unique commits, public overlay/export/publish tooling distinct from verified release line. KEEP. |
+| \`showcase/viewer-v18-preview-001-cooked-exec\` | \`33eb996f6c155b51fda579ba5e35e6a537103712\` | 131 unique commits, distinct cooked Viewer tools/code/execution evidence not on main. User reports Viewer task completed; preserve for reproducibility. KEEP. |
+| \`work/viewer-v18-preview-001-native\` | \`41d1a735405133f2a186bea769eed15455c5fa90\` | 119 unique commits, independent native Viewer workline differs from cooked branch. KEEP. |
+
+### Post-action boundary
+
+- `state/chatgpt.json` read-only check: `active_task=world-execute-chatgpt-showcase-20261017`, `phase=RUNNING`. No managed task state edited by cleanup.
+- **No release or Viewer branch deletion.** No changes to separate MMCA/Cache research repositories.
+- New write to CAH main was limited to the existing reusable `.github/workflows/foreground-direct-command.yml` slot to run exact guarded deletion. No new branch created.
+- Closing #149 does not certify completion of Issue #148. Unresolved PRs #330/#349 and task branches #327/#384 require explicit technical evaluation rather than mass cleanup.
