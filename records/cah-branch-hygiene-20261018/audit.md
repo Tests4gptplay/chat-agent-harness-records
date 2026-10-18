@@ -152,3 +152,14 @@ These are not automatically equal to "merged". Each delete requires pinned ref, 
 | `work/viewer-v18-preview-001-native` | `41d1a735405133f2a186bea769eed15455c5fa90` | Native Viewer workline diverged from cooked; 119 unique commits vs main |
 
 Do not create a temporary cleanup branch, and do not touch CAH task state or any independent MMCA directories. Execute via CAH's standing `cah-shot` short-task slot, verify actual GitHub refs again after execution and record outcomes here. This audit preserves HEAD SHAs for recovery if Git objects remain accessible.
+
+
+## Phase 3 execution verified — 2026-10-18
+
+- [Actions run 39094885833](https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39094885833): status `completed`, conclusion **success**, update `2026-10-18T03:48:32Z`.
+- Live readback: **10 refs** in CAH, `main` plus exactly nine preserved branch refs listed above. All six Phase 3 candidates absent, and no unplanned ref disappearance observed.
+- Active CAH task (read-only check after cleanup): `world-execute-chatgpt-showcase-20261017`, phase `RUNNING`. Phase 3 changed no task state file; only the normal mutable `.github/workflows/foreground-direct-command.yml` slot was updated on CAH main to invoke `cah-shot`.
+- In total since the 74-ref inventory: 25 fully merged old heads + one misplaced Cache research head + 32 merged-PR heads + six semantically obsolete heads = **64 branch deletions**, leaving **10** total refs.
+- The historical release lines are independently divergent; Viewer native vs Cooked-exec lines diverge; do not delete either pair until their unique code and evidence is archived or merged appropriately.
+- The three surviving open PRs require fresh base-state engineering review before merge or closure. In particular #149 contains an old `extension/lane_clear_runtime.js` path absent on modern main; do not merge it unchanged. #330 introduces browser Retry handling not found in the current `playwright_host/ui.py`; #349 targets semantic-turn ceiling while current main has a separate `prompt_ceiling` implementation. These PRs were intentionally not closed, merged or deleted.
+- This audit was written in `Tests4gptplay/chat-agent-harness-records`, not to the MMCA research tree. There were no writes to either `temp/work/cache-study` or `temp/work/micro-model-composite-architecture-20261016` during Phase 3.
