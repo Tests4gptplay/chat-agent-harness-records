@@ -181,14 +181,14 @@ User direction: **do not delete release/history branches merely to reduce branch
 
 | Branch | Pinned SHA | Retention rationale / next gate |
 |---|---|---|
-| \`docs/draco-cn14-three-way-case-384\` | \`199147df9e6da4c451b32f99a31eeacd9dd3d23a\` | Issue #384 open; independent migration results and candidate Skill adjustments absent on main. Inspect accepted deliverable + whether evidence should enter Skill or separate task archive before considering deletion. |
-| \`fix/327-worker-lease-helper-recovery\` | \`1bba29aab4d6b99b586e36329dd319c793fd5625\` | Issue #327 open; 11 unique commits and historical worker_recovery.py absent on main; current lifecycle has evolved. Requires semantic diff against modern Helper/watchdog behavior before deciding reuse/discard. |
-| \`fix/329-conversation-load-retry\` | \`0407a0286dc803bae07fc3ea11822e6dda69b6f3\` | Draft PR #330 open; adds bound ChatGPT retry handling and tests not observed on main. Rebase/redesign/test against current Playwright before merge/close. |
-| \`fix/348-planner-turn-ceiling\` | \`fb27dc33d6e134b6b94113fe1a3894d86c74b969\` | Draft PR #349 open; current main uses prompt_count/prompt_ceiling, PR counts completed semantic Planner turns. Related but *not identical*. Require policy choice and regression comparison before closing/merging. |
-| \`release/public-1.0.4-verified\` | \`885a87f7a73e338b0156d5ffe5fd0d212e4a37e4\` | 13 unique commits, publication/verification/export scripts distinct from other release line. Public v1.0.4 is tagged and released with ZIP/asset digest but does not replace private build history. KEEP. |
-| \`release/public-1.0.4\` | \`886fed8d862e995671324a7d4e48ca7b966dfedb\` | 13 unique commits, public overlay/export/publish tooling distinct from verified release line. KEEP. |
-| \`showcase/viewer-v18-preview-001-cooked-exec\` | \`33eb996f6c155b51fda579ba5e35e6a537103712\` | 131 unique commits, distinct cooked Viewer tools/code/execution evidence not on main. User reports Viewer task completed; preserve for reproducibility. KEEP. |
-| \`work/viewer-v18-preview-001-native\` | \`41d1a735405133f2a186bea769eed15455c5fa90\` | 119 unique commits, independent native Viewer workline differs from cooked branch. KEEP. |
+| `docs/draco-cn14-three-way-case-384` | `199147df9e6da4c451b32f99a31eeacd9dd3d23a` | Issue #384 open; independent migration results and candidate Skill adjustments absent on main. Inspect accepted deliverable + whether evidence should enter Skill or separate task archive before considering deletion. |
+| `fix/327-worker-lease-helper-recovery` | `1bba29aab4d6b99b586e36329dd319c793fd5625` | Issue #327 open; 11 unique commits and historical worker_recovery.py absent on main; current lifecycle has evolved. Requires semantic diff against modern Helper/watchdog behavior before deciding reuse/discard. |
+| `fix/329-conversation-load-retry` | `0407a0286dc803bae07fc3ea11822e6dda69b6f3` | Draft PR #330 open; adds bound ChatGPT retry handling and tests not observed on main. Rebase/redesign/test against current Playwright before merge/close. |
+| `fix/348-planner-turn-ceiling` | `fb27dc33d6e134b6b94113fe1a3894d86c74b969` | Draft PR #349 open; current main uses prompt_count/prompt_ceiling, PR counts completed semantic Planner turns. Related but *not identical*. Require policy choice and regression comparison before closing/merging. |
+| `release/public-1.0.4-verified` | `885a87f7a73e338b0156d5ffe5fd0d212e4a37e4` | 13 unique commits, publication/verification/export scripts distinct from other release line. Public v1.0.4 is tagged and released with ZIP/asset digest but does not replace private build history. KEEP. |
+| `release/public-1.0.4` | `886fed8d862e995671324a7d4e48ca7b966dfedb` | 13 unique commits, public overlay/export/publish tooling distinct from verified release line. KEEP. |
+| `showcase/viewer-v18-preview-001-cooked-exec` | `33eb996f6c155b51fda579ba5e35e6a537103712` | 131 unique commits, distinct cooked Viewer tools/code/execution evidence not on main. User reports Viewer task completed; preserve for reproducibility. KEEP. |
+| `work/viewer-v18-preview-001-native` | `41d1a735405133f2a186bea769eed15455c5fa90` | 119 unique commits, independent native Viewer workline differs from cooked branch. KEEP. |
 
 ### Post-action boundary
 
