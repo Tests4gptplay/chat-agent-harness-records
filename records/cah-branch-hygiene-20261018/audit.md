@@ -221,3 +221,13 @@ User direction: **do not delete release/history branches merely to reduce branch
 5. Do not close Issue #148 or any unrelated Issue; do not edit active CAH Task Cell, Cache Study or MMCA project content.
 
 **Important:** This table is an immutable pre-action inventory. Completion and remote readback are recorded in a separate post-action section only after actual success.
+
+### Phase 5 completion / remote readback
+
+- [GitHub Actions cleanup run 39096874875](https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39096874875): `completed/success`; four user-approved, SHA-pinned target branches were deleted.
+- [PR #330](https://github.com/Tests4gptplay/git-agent-harness/pull/330) and [PR #349](https://github.com/Tests4gptplay/git-agent-harness/pull/349): closed **without merge**.
+- [Issue #327](https://github.com/Tests4gptplay/git-agent-harness/issues/327), [#329](https://github.com/Tests4gptplay/git-agent-harness/issues/329), [#348](https://github.com/Tests4gptplay/git-agent-harness/issues/348), [#384](https://github.com/Tests4gptplay/git-agent-harness/issues/384): closed as `not_planned` (withdrawn, not accepted or completed).
+- Independent repository readback: **5 branch refs total**, comprising `main`, both `release/public-1.0.4*` heads, and both surviving Viewer heads; **zero open PRs**.
+- Exactly four newly deleted branches: `docs/draco-cn14-three-way-case-384`, `fix/327-worker-lease-helper-recovery`, `fix/329-conversation-load-retry`, `fix/348-planner-turn-ceiling`.
+- Historic pinned SHA values are preserved above. Original PR/Issue content remains on GitHub. The active CAH task, Release and Viewer branches, and MMCA research were not targeted.
+- Since the 74-ref starting inventory, **69 refs have been pruned**, leaving **5**.
