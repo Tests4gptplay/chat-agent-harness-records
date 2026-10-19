@@ -1,0 +1,176 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "manual_independent_progress_and_elapsed_time_audit",
+  "event_type": "showcase_continuity_technical_artistic_milestones_and_adjusted_wall_time",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "observed_at_utc": "2026-10-19T00:55:13Z",
+  "observed_at_jst": "2026-10-19T09:55:13+09:00",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "source_head_at_capture": "5a3ef7a0f4751a80ac0195413c0a9d83d04f9f18",
+  "record_repository": "Tests4gptplay/chat-agent-harness-records",
+  "record_branch": "main",
+  "previous_observer_event": "showcase-observer/world-execute-chatgpt-20261017/events/2026-10-18T05-09Z.json",
+  "capture_method": "User-requested read-only retrospective review of source/main canonical Task Cell, exact Worker CL, Planner Plan v5/Memory, immutable Git commit chronology, GitHub Actions real job summaries/log markers; current local time obtained separately. This is ONE manual observation and a retrospective audit, not fabricated hourly captures and not continuous host instrumentation.",
+  "elapsed_time": {
+    "baseline_definition": "First managed MV Task/Plan commit, not CAH software installation",
+    "baseline_first_task_commit_utc": "2026-10-17T14:10:17Z",
+    "baseline_commit": "https://github.com/Tests4gptplay/git-agent-harness/commit/61d21e2ece5b",
+    "elapsed_wall_seconds": 125096,
+    "elapsed_wall_hms": "34h44m56s",
+    "identified_exclusion_seconds": 33444,
+    "identified_exclusion_hms": "9h17m24s",
+    "adjusted_wall_seconds": 91652,
+    "adjusted_wall_hms": "25h27m32s",
+    "adjusted_wall_hours_approx": 25.46,
+    "interpretation": "Approximate wall-clock time after excluding five identifiable coarse intervention/wait windows, NOT measured CPU time, model token time, actual uninterrupted productive runtime, or sum of two parallel Workers. Exclusions include some maintenance/analysis activity and may therefore understate real CAH contribution; unobserved short idle periods may conversely overstate it.",
+    "excluded_intervals": [
+      {
+        "kind": "human_security_gate_and_manual_restore",
+        "start_utc": "2026-10-17T17:38:33Z",
+        "end_utc": "2026-10-17T18:25:19Z",
+        "source_refs": [
+          "https://github.com/Tests4gptplay/git-agent-harness/commit/3e003a5b80fa",
+          "https://github.com/Tests4gptplay/git-agent-harness/commit/08caaf654cac"
+        ],
+        "duration_seconds": 2806,
+        "duration_hms": "0h46m46s"
+      },
+      {
+        "kind": "human_security_wait_including_user_reported_reboot",
+        "start_utc": "2026-10-17T19:45:16Z",
+        "end_utc": "2026-10-17T23:59:37Z",
+        "source_refs": [
+          "https://github.com/Tests4gptplay/git-agent-harness/commit/fb4b7298ea72",
+          "https://github.com/Tests4gptplay/git-agent-harness/commit/e6378fa3e8d5",
+          "showcase-observer/world-execute-chatgpt-20261017/events/2026-10-18T04-22Z.json"
+        ],
+        "duration_seconds": 15261,
+        "duration_hms": "4h14m21s"
+      },
+      {
+        "kind": "foreground_aesthetic_decision_wait",
+        "start_utc": "2026-10-18T09:54:51Z",
+        "end_utc": "2026-10-18T11:08:32Z",
+        "source_refs": [
+          "https://github.com/Tests4gptplay/git-agent-harness/commit/5bc2a9066cc4",
+          "https://github.com/Tests4gptplay/git-agent-harness/commit/9692af232e4f"
+        ],
+        "duration_seconds": 4421,
+        "duration_hms": "1h13m41s"
+      },
+      {
+        "kind": "platform_wait_rules_maintenance_and_occupied_runner",
+        "start_utc": "2026-10-18T15:29:20Z",
+        "end_utc": "2026-10-18T17:23:25Z",
+        "source_refs": [
+          "https://github.com/Tests4gptplay/git-agent-harness/commit/e95c91155072",
+          "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39149258388",
+          "https://github.com/Tests4gptplay/git-agent-harness/commit/bd341845ea35"
+        ],
+        "duration_seconds": 6845,
+        "duration_hms": "1h54m05s"
+      },
+      {
+        "kind": "worker_wake_ack_gap",
+        "start_utc": "2026-10-18T19:54:49Z",
+        "end_utc": "2026-10-18T21:03:20Z",
+        "source_refs": [
+          "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39160874579",
+          "https://github.com/Tests4gptplay/git-agent-harness/commit/a8d2ad18bd"
+        ],
+        "duration_seconds": 4111,
+        "duration_hms": "1h08m31s"
+      }
+    ],
+    "measurement_limits": [
+      "User-reported Windows Update/hardware restart existed, but exact reboot start/end not independently measured; bundled into confirmed WAIT_USER interval rather than assigned fabricated downtime.",
+      "Git commit silence alone does not prove absence of semantic work; Action success alone does not prove work quality.",
+      "The 2026-10-18T15:29–17:23 interval contains source/rules maintenance commits; subtracting the entire coarse window is deliberately conservative, not exact idle accounting.",
+      "No end-to-end host CPU/utilization traces or continuously sampled watchdog evidence for every pause; durations are auditable estimates."
+    ]
+  },
+  "current_verified": {
+    "parent_phase": "RUNNING",
+    "parent_task": "world-execute-chatgpt-showcase-20261017",
+    "task_cell_status": "PARKED_WAIT_EVENT",
+    "planner_generation": 5,
+    "planner_wait": "WAIT_RESULT",
+    "active_child": "child-3afc009e88418012d8741a2e",
+    "active_child_scope": "P4R-0s new physically moving spatial perspective and irreversible bell impact",
+    "active_child_generation": 2,
+    "active_child_cl": "RUNNING",
+    "active_child_worker_wake": "wake-7898fa05faa16d21fe49c661",
+    "worker_response_started_ack_at_utc": "2026-10-19T00:55:05Z",
+    "last_wake_run": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39182870173",
+    "last_wake_outcome": "completed/success; canonical CL independently verifies generation-2 real response-start",
+    "actions_queued_at_capture": 0,
+    "actions_in_progress_at_capture": 0,
+    "note": "No active Actions jobs does not mean a ChatGPT Worker conversation is idle."
+  },
+  "production_milestones": [
+    {
+      "stage": "P3 original full-song V1",
+      "verified": "actual rendered and host-verified full H264/AAC file; 36 scenes, 129 cues, 6358 source frames, original song 211.906667s; 17,723,473 bytes and SHA256 adb7ed17c904bc8b8670834bb667cf5dfd8da8ffe4d78152e83b1fafe2f82fa1",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39097948802",
+      "art_verdict": "Technical PASS does NOT imply Planner A4 artistic approval"
+    },
+    {
+      "stage": "P4 real V1 review",
+      "verified": "Planner independently rejected production quality based on actual encoded source-linked images",
+      "art_verdict": "ART_NO_GO",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/commit/2dd84aeb5a29"
+    },
+    {
+      "stage": "P4R N2 continuous motion",
+      "verified": "138 frame native H264 physically audited after FFmpeg9 QA correction",
+      "art_verdict": "ART_NO_GO",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39167958814"
+    },
+    {
+      "stage": "P4R O/C2 continuous motion",
+      "verified": "165 true source-clock 30fps H264 frames with authentic decoded motion samples and host provenance",
+      "art_verdict": "ART_NO_GO",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39172280196"
+    },
+    {
+      "stage": "P4R P/Q/R alternative visual grammar",
+      "verified": "actual six-frame source-linked previews; latest R atlas had visually reviewed 480/960 pixels",
+      "art_verdict": "ART_NO_GO",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39179823635"
+    },
+    {
+      "stage": "P4R S current",
+      "verified": "Primary gah-win-01 run39182629115/job117838441731 completed/success: six real Blender 5.2 960x437 spatial bell-and-camera frames, 480 montage, 960 before/contact/after packets, 129 original cues; original V1/song/154 pins PRE_POST PASS, native .blend SHA receipt",
+      "art_verdict": "PENDING independent actual-pixel review; six stills only and explicitly no S 30fps H264 yet",
+      "evidence": "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39182629115"
+    }
+  ],
+  "decision_state": {
+    "last_planner_decision": "Planner Plan v5 requires actual camera parallax/occlusion and material consequence first, then independent art GO before expanding to 2–3 second motion, five-act continuity, or full original song V2.",
+    "approved_art_segments_count": 0,
+    "final_full_song_v2_started": false,
+    "parent_terminal": false,
+    "archived_parent_record": false
+  },
+  "observer_commentary": {
+    "assessment": "完整36场景有声V1与两组真实连续动画均有技术证据，但独立美术审查持续NO_GO。当前S首次用同一物理空间、移动相机和铜钟碎裂检验叙事，六帧实际渲染已成功；艺术价值尚未亲眼复核，不能提前通过。",
+    "architecture": "Planner对失败实验持续给出可执行的新边界；多代Worker真实唤醒、源保护和独立Actions运行可核实。停顿剔除是保守的墙钟估算，不是CPU运行计时。",
+    "watch_next": "核对S真实480/960像素的空间遮挡和碰撞因果，追踪G2艺术结论；只有得到实际GO才有理由制作连续H264。",
+    "confidence": "medium",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39097948802",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39182629115",
+      "https://github.com/Tests4gptplay/git-agent-harness/actions/runs/39182870173",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/5a3ef7a0f4751a80ac0195413c0a9d83d04f9f18"
+    ],
+    "uncertainties": [
+      "No observer-independent private source image lightbox inspection was performed in this capture.",
+      "No professional artistic GO or native new S H264 is supported yet.",
+      "The true exact host reboot duration is unknown.",
+      "The prior hourly observer was disabled at capture; this manual event does not certify hourly automatic operation."
+    ]
+  },
+  "non_interference": "Observer READ source Git and Actions; WRITE restricted to this independent records repository; no edits to active CAH tasks/CL/Planner/Worker, Runners, workflows, Issues, or host, and no new smoke/test job. Existing observer archive INDEX.json unchanged.",
+  "privacy": "Keep private song, media, lyric and source image packet bodies out of record Git; cite hashes/receipts/verified Actions only."
+}
