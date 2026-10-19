@@ -1,0 +1,86 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "user_requested_retrospective_reconciliation_and_current_snapshot",
+  "observed_at_utc": "2026-10-19T10:05:49Z",
+  "recorded_at_utc": "2026-10-19T10:07:14Z",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "source_head_at_capture": "ddf5f7b628ccf9db59c3d07603954099a9153f42",
+  "source_commit_time_utc": "2026-10-19T10:05:06Z",
+  "records_repository": "Tests4gptplay/chat-agent-harness-records",
+  "records_visibility": "private",
+  "previous_event_ref": "showcase-observer/world-execute-chatgpt-20261017/events/2026-10-19T03-11Z.json",
+  "coverage": "Retrospective partial reconstruction of important durable events after 03:11Z, not continuous hourly observation or a complete replay.",
+  "backfill_ref": "showcase-observer/world-execute-chatgpt-20261017/backfills/2026-10-19T10-05Z-helper-image-replanning.md",
+  "observed_canonical": {
+    "parent_status": "PARKED_WAIT_EVENT",
+    "wait_kind": "WAIT_RESULT",
+    "planner_generation": 7,
+    "formal_plan_revision": 10,
+    "latest_outcome": "CONTINUE",
+    "old_child_disposition": "user-stopped CANCELLED; Planner RETIRE_CANCELLED_NOT_ACCEPT",
+    "image_child": "child-1d319a650df7f62d6735c9ca",
+    "image_child_backend": "BLOCKED",
+    "rev11_intent_consumed_at": "2026-10-19T09:27:49+00:00",
+    "helper_result_consumed_at": "2026-10-19T09:48:45+00:00",
+    "image_result_consumed_at": "2026-10-19T10:04:16+00:00",
+    "new_child": {
+      "id": "child-893a343aef58574811d59d8b",
+      "lane": "lane-00",
+      "generation": 1,
+      "dispatch": "dispatch-b644695bf06d1715fa265996",
+      "created_at": "2026-10-19T10:04:16+00:00",
+      "acked_at": "2026-10-19T10:05:06+00:00",
+      "ack_source": "extension_response_start",
+      "overall": "RUNNING",
+      "semantic_work": "WAIT",
+      "branch_output": "WAIT",
+      "result_ref": null
+    }
+  },
+  "reported_not_firsthand": {
+    "helper": "Exact old G2 stopped, canonical cancellation and Host final_signal reconciled; Helper report references Actions 39230312955/39230950840. Observer did not repeat host checks.",
+    "image": "Worker reports one actual native PNG, 1448x1086, 1532122 bytes, SHA256 5f999eb4615877cc008c0edcfaa67b85123991d1a9592fd652fa4359a657cf51, visually synthetic GitHub UI; Planner explicitly had not opened ephemeral original.",
+    "not_attempted": "Image upload to private Git, Windows pull and formal host source-art QA were not attempted after content ineligibility. Binary transport not disproven."
+  },
+  "planned_not_completed": {
+    "method": "Two different original spatial/kinetic editorial treatments at one source cue; 3 actual keyframes each, native up-to-960/practical480.",
+    "conditional": "Only after actual keyframe art gate: >=25 source-clock consecutive frames. No full V2 authorization in this bounded Child.",
+    "important": "New Child admission and response-start observed; no new keyframe or motion artifact proven by this snapshot."
+  },
+  "observer_commentary": {
+    "assessment": "真实生图已发生，但据Worker观察内容不合格；未进入Git与本地导入，不能据此否定传输路线。新非生图Child已开始响应，艺术成果尚无证据。",
+    "architecture": "Helper停止旧代并回报，Planner消费事件后完成新规划和派发；恢复完成、任务继续与艺术通过是独立事实。",
+    "watch_next": "核对新Child真实关键帧及Planner亲见评审，避免把RUNNING当产出。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/state/task_cells/world-execute-chatgpt-showcase-20261017.json",
+      "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/cl/child-893a343aef58574811d59d8b.backend.json",
+      "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/tasks/world-execute-chatgpt-showcase-20261017.plan.json",
+      "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/evidence/art-direction/p4r0-native-source-child-1d319a650df7f62d6735c9ca-g1.json",
+      "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/evidence/world-execute-chatgpt-showcase-20261017/roles/helper/worker-helper-f06b696ee6aab842a64d09b0.json"
+    ],
+    "uncertainties": [
+      "No observer firsthand image or local host validation in this reconciliation.",
+      "Empty returned prompt metadata does not establish actual prompt causation.",
+      "No fresh V1/song/154 PRE/POST guard measurement.",
+      "No final whole-film A4/A1-A8 acceptance."
+    ]
+  },
+  "sources": {
+    "old_reply": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/memory/worker/child-a52c3269aed3ce919bf69dce/reply.md",
+    "g1_recovery": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/evidence/world-execute-chatgpt-showcase-20261017/roles/helper/planner-helper-f01656ab850d7e38ffc9077e.json",
+    "g2_recovery": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/evidence/world-execute-chatgpt-showcase-20261017/roles/helper/worker-helper-996a9bca82888569b005ea91.json",
+    "g2_stop": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/evidence/world-execute-chatgpt-showcase-20261017/roles/helper/worker-helper-f06b696ee6aab842a64d09b0.json",
+    "image_ledger": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/evidence/art-direction/p4r0-native-source-child-1d319a650df7f62d6735c9ca-g1.json",
+    "plan": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/tasks/world-execute-chatgpt-showcase-20261017.plan.json",
+    "plan_note": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/memory/planner/world-execute-chatgpt-showcase-20261017/plan_note.md",
+    "state": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/state/task_cells/world-execute-chatgpt-showcase-20261017.json",
+    "direction": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/state/planner_turns/world-execute-chatgpt-showcase-20261017/doorbell-679fdcdc22a281930f22f5b09c0641c6/worker-slot-1.json",
+    "outcome": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/state/planner_turns/world-execute-chatgpt-showcase-20261017/doorbell-679fdcdc22a281930f22f5b09c0641c6/outcome.json",
+    "new_cl": "https://github.com/Tests4gptplay/git-agent-harness/blob/ddf5f7b628ccf9db59c3d07603954099a9153f42/cl/child-893a343aef58574811d59d8b.backend.json"
+  },
+  "non_interference": "Only create new private Records documents. No source CAH writes, role messages, workflow execution, restart, stop or local task control. Existing snapshots and cold INDEX untouched.",
+  "privacy": "No private conversation IDs, raw image/audio/lyrics or credentials copied."
+}
