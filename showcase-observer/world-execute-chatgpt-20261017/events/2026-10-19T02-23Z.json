@@ -1,0 +1,83 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "user_requested_create_only_event",
+  "event_type": "native_visual_generation_declared_but_protected_asset_ingress_not_verified",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "observed_at_utc": "2026-10-19T02:23:34Z",
+  "observed_at_jst": "2026-10-19T11:23:34+09:00",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "source_head_at_capture": "8f27505ac853483cd14fa091201fe29ae0778abe",
+  "records_repository": "Tests4gptplay/chat-agent-harness-records",
+  "records_branch": "main",
+  "previous_observer_snapshot": "showcase-observer/world-execute-chatgpt-20261017/hourly/2026-10-19/2026-10-19T02-00Z.json",
+  "capture_method": "Manual explicit user inquiry and read-only verification of exact main Git commit history, Task Cell Planner/Worker CL, bound Worker Result/Reply, source capability ledger and decision memo; no claim to have personally called image_gen or accessed private Windows E: project.",
+  "observed_delta": {
+    "planner_generation": 6,
+    "planner_status": "ACTIVE; WAKING upon queued Worker result",
+    "task_phase": "RUNNING",
+    "task_cell_status": "PARKED_WAIT_EVENT",
+    "planner_inbox": "P4R-0-SOURCE-INGRESS Worker Result CLAIMED, not yet marked CONSUMED or independently accepted by Planner at capture",
+    "child_id": "child-ae67455774289182eee37804",
+    "child_dispatch_generation": 1,
+    "child_backend": "DONE",
+    "child_turn_signal": "complete",
+    "child_result_disposition": "bounded honest negative feasibility probe, not overall Parent blocked/complete",
+    "first_party_image_creation_interface": "Declared image_gen.text2im in that Worker context, UNEXECUTED; declaration does not demonstrate live image creation or a public/private file export",
+    "official_product_save_feature": "Documented in OpenAI ChatGPT Images user-facing UI generally; not proven in the specific bound CAH authenticated browser",
+    "independent_browser_connector": "One mcp__Browser__list_tabs invocation returned originating-browser-context exception; distinct from CAH registered native browser/Playwright Tools, which were not thereby proven broken",
+    "private_protected_egress_ingress": "UNKNOWN/NOT VERIFIED; no proven generated-image byte transfer into protected Windows E: project with SHA, no verified original film-art file",
+    "art_assets_newly_generated": false,
+    "image_generation_attempted": false,
+    "new_960_480_picture_review": false,
+    "new_editable_master_layers": false,
+    "new_H264": false,
+    "artistic_GO": false,
+    "full_211_906667s_v2": false,
+    "prior_technical_full_V1": "Physically authentic 36-scene 129-cue soundtrack-bearing H264/AAC 211.9s original V1, artistic A4 ART_NO_GO; original file unchanged per previous host-guard receipts",
+    "runner_queue_actions": 0,
+    "runner_in_progress_actions": 0,
+    "production_art_next_dependency": "Planner review of negative ingress evidence; if authorized, test existing in-band CAH browser UI image save and exact-byte host transfer without another paid service/account, alternate identity or Git-binary relay; no approval/forward direction at capture.",
+    "new_evidence": [
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/18025e79cb49048f253233c99f3084e6d281a1da",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/737d3e0706c9ce046468bdedc3ec3cf3fca437c6",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/aacf826879bf",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/d0693cecf5d0",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/8f27505ac853483cd14fa091201fe29ae0778abe",
+      "https://github.com/Tests4gptplay/git-agent-harness/issues/395#issuecomment-6258228885"
+    ]
+  },
+  "duration": {
+    "baseline_utc": "2026-10-17T14:10:17Z",
+    "actual_capture_utc": "2026-10-19T02:23:34Z",
+    "total_natural_wall_seconds": 130397,
+    "total_natural_wall_hms": "36h13m17s",
+    "prior_identified_coarse_exclusion_seconds": 33444,
+    "prior_identified_coarse_exclusion_hms": "9h17m24s",
+    "net_adjusted_wall_estimate_seconds": 96953,
+    "net_adjusted_wall_hms": "26h55m53s",
+    "no_new_proven_exclusions_since_prior": true,
+    "prior_five_exclusion_intervals_ref": "showcase-observer/world-execute-chatgpt-20261017/events/2026-10-19T00-55Z.json",
+    "scope_note": "Only five previously evidenced coarse interruption windows removed; no arbitrary subtraction for current Planner decision lag, current lack of Actions jobs, or semantic thinking. This is an approximate adjusted wall clock, NOT continuous token/CPU/agent working time; some excluded maintenance involved legitimate work."
+  },
+  "observer_commentary": {
+    "assessment": "新进展不是新艺术成片，而是澄清了真正制约高品质原画的链路：本Worker会话声明图像生成接口，但尚未验证生成图片能按原始字节私有保存至Windows工程并构建可编辑分层。受限Child如实完成负向可行性证明，没有把未做的生成冒充成果。",
+    "architecture": "第6代Planner已收到Worker完成事件并开始处理；Git/CL确实记录完整Child回写。独立Browser插件上下文错误不等于CAH自有Playwright不可用，且无额外Runner或测试占用。",
+    "watch_next": "首先查看Planner如何处理该负向证据：是否精准核实原生CAH浏览器保存与私有SHA回读路径，或明确需用户决定的真实制作资源。",
+    "confidence": "high",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/aacf826879bf",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/d0693cecf5d0",
+      "https://github.com/Tests4gptplay/git-agent-harness/commit/18025e79cb49048f253233c99f3084e6d281a1da"
+    ],
+    "uncertainties": [
+      "image_gen was declared but not actually invoked by Worker; end-to-end rendering capability for image/media in bound CAH context not demonstrated",
+      "CAH in-band authorized browser Save/export and exact Windows destination bytes not tested in this Child",
+      "Planner's independent follow-on direction not committed yet at capture",
+      "Artistic GO and first full V2 absent",
+      "Wall-clock adjustment is a coarse estimate rather than actual execution utilization"
+    ]
+  },
+  "non_interference": "Only read CAH main/Actions/CL. Only write independent private Records create-only event. No CAH source changes, workflow, Runner, Tool, issue, short-task, smoke, scheduled monitor or privileged media transfer.",
+  "privacy": "Do not publish or copy source copyrighted song/lyrics, private model media, host process secrets or binary art to records."
+}
