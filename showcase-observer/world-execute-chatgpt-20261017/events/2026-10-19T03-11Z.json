@@ -1,0 +1,103 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "manual_read_only_sandbox_retention_code_audit",
+  "event_type": "potential_old_worker_conversation_retention_residue",
+  "observed_at_utc": "2026-10-19T03:11:33Z",
+  "observed_at_local": "2026-10-19T11:11:33+08:00",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "source_head_at_capture": "6150ee12cc8ebdc26168c73569b7a4951e077bb5",
+  "records_repository": "Tests4gptplay/chat-agent-harness-records",
+  "records_branch": "main",
+  "trigger": "User reports apparent stale old Sandbox chats and requests an investigation; no user consent to remove conversations or modify live Host/CAH code.",
+  "inspection_method": "READ ONLY: canonical GitHub main contracts, Playwright Host source/tests, issue #363/#337/#148 historical context, lane/parent Git state; attempted connected Browser list_tabs in current chat but the originating browser context was unavailable. Did NOT attach to user's CAH Chrome or read its local HostState, physical Sandbox Project UI lists, or Bridge event logs.",
+  "authoritative_contract": {
+    "lineage_identity": "owner_task_id + owner_control_epoch + lane_id",
+    "normally_retained_per_lineage": 5,
+    "replacement": "After sixth admitted current, exact-delete oldest eligible standby and return to five; excess temporarily allowed if UI deletion fails.",
+    "unmanaged_or_other_task_conversations": "Intentionally outside this lineage's automatic deletion ownership",
+    "source": "https://github.com/Tests4gptplay/git-agent-harness/blob/main/docs/WORKER_GENERATIONS.md"
+  },
+  "code_level_findings": [
+    {
+      "id": "S1",
+      "confidence": "HIGH_SOURCE_LOGIC__LIVE_OCCURRENCE_UNKNOWN",
+      "type": "POSSIBLE_FALSE_POSITIVE_PHYSICAL_DELETION_CONFIRMATION",
+      "file": "playwright_host/ui.py",
+      "lines": "743-775,797-837",
+      "fact": "list_project_conversations only enumerates a[href]:visible; confirm_project_conversation_absent returns true if victim is absent from two consecutive visible-list snapshots even with no observed sibling conversation. A UI that hides, virtualizes or has not loaded older chats can satisfy this false absence condition while the real chat still exists.",
+      "regression_test": "tests/test_worker_retention.py test_single_chat_lineage_confirms_absence_after_two_observations explicitly asserts true when the project list returns [] twice.",
+      "effect": "playwright_host/worker.py _trim_lineage lines331-395 removes that conversation from local tracked managed records when this function returns true. If physical delete never occurred, the chat becomes untracked/orphaned and future lineage trim cannot know to delete it.",
+      "caveat": "Whether the actual current ChatGPT Project UI hides older links or exercised this branch in production was not physically observed."
+    },
+    {
+      "id": "S2",
+      "confidence": "HIGH_SOURCE_LOGIC__LIVE_OCCURRENCE_UNKNOWN",
+      "type": "SILENT_DELETION_FAILURE_AND_RETRY_WITH_NO_DETAIL",
+      "file": "playwright_host/worker.py",
+      "lines": "331-395",
+      "fact": "_trim_lineage breaks without structured error details if delete_project_conversation returns false and absence is not proven, or if a browser deletion exception occurs (except Exception: break). create_worker logs worker.retention_error only for an exception escaping _trim_lineage; internal breaks can be silent.",
+      "effect": "managed history can remain >5 indefinitely. Current UI deletion relies on project sidebar rendered row, row menu selector and exact confirmation. Selector/UI drift can cause the same failed path on periodic retry.",
+      "caveat": "No current Host event logs or actual UI screenshots to establish frequency."
+    },
+    {
+      "id": "S3",
+      "confidence": "HIGH_SOURCE_LOGIC__OPERATING_CONTEXT_UNKNOWN",
+      "type": "OWNERSHIP_LOSS_LEAVES_OLD_PROJECT_CHATS_UNCLEANED",
+      "file": "playwright_host/state.py",
+      "fact": "HostState local E:/CAH-Browser/playwright-host/state.json maintains task-owned lineage managed/current refs, not the source Git state/lanes.json, which records only last_pool_takeover_id and task owner metadata. If local lineage entries are lost or deliberately cleared without physical UI deletion, unknown old chats remain outside retention.",
+      "context": "docs/WORKER_GENERATIONS.md recovery section explicitly preserves unknown histories; #337 historically documented reset-cleared hot state without deleting old Project conversations, later fixed for explicit reset.",
+      "caveat": "No evidence this particular active Parent's local HostState is missing; do not recommend Reset for a running task."
+    }
+  ],
+  "active_task_evidence": {
+    "phase": "RUNNING",
+    "task_cell": "PARKED_WAIT_EVENT",
+    "planner_generation": 6,
+    "task_cell_updated_at": "2026-10-19T03:00:06+00:00",
+    "main_head": "6150ee12cc8ebdc26168c73569b7a4951e077bb5",
+    "source_lane_metadata": "lane-00 and lane-01 each have task-owned last_pool_takeover_id; canonical Git does NOT expose a full actual physical chat count",
+    "maintenance_interval_seconds": 60,
+    "maintenance_reference": "playwright_host/config.py and playwright_host/runtime.py tick lines 1697-1702; periodic maintenance calls workers.maintain->_trim_lineage",
+    "not_confirmed": "Actual browser list count, per-lineage managed count, deletion success receipts/worker.chat_retired events, Host revision installed, physical chat presence, and direct DOM selector validity."
+  },
+  "historical_issues": {
+    "previous_retention_fix": "https://github.com/Tests4gptplay/git-agent-harness/issues/363",
+    "previous_reset_chat_leftovers": "https://github.com/Tests4gptplay/git-agent-harness/issues/337",
+    "unresolved_terminal_browser_residue": "https://github.com/Tests4gptplay/git-agent-harness/issues/148"
+  },
+  "next_non_destructive_proof": "Only if authorized and safely obtainable through current legitimate host read-only path, compare E:/CAH-Browser/playwright-host/state.json managed/current conversation IDs for EACH exact current Parent/epoch/lane with a fully loaded, non-mutating browser Project list and recent worker.chat_retired/worker.retention_error event logs. Distinguish missing old chats from unowned historical chats; no delete/Stop/restart/reset or new tasks.",
+  "duration": {
+    "start_utc": "2026-10-17T14:10:17Z",
+    "end_utc": "2026-10-19T03:11:33Z",
+    "natural_wall_seconds": 133276,
+    "natural_wall_hms": "37h01m16s",
+    "historical_coarse_exclusion_seconds": 33444,
+    "historical_coarse_exclusion_hms": "9h17m24s",
+    "adjusted_wall_seconds": 99832,
+    "adjusted_wall_hms": "27h43m52s",
+    "source_of_intervals": "showcase-observer/world-execute-chatgpt-20261017/events/2026-10-19T00-55Z.json",
+    "new_exclusions_verified": 0,
+    "caution": "Adjusted elapsed wall time only, not measured model/CPU time. No new precise interruptions were inferred from UI uncertainty."
+  },
+  "observer_commentary": {
+    "assessment": "Sandbox旧对话残留的用户观察与当前源码的两类风险吻合：未展示的老对话可能被误判已删除后丢失归属，或浏览器删帖失败被静默吞掉。暂未读取真实Chrome项目对话清单和本机lineage，因此这是高优先级可解释原因而非已证实故障。",
+    "architecture": "5+1保留规则按父任务/epoch/lane限定；Git仅留最后Worker引用，完整managed清单在Host本地。删除失败不阻断业务，可能让MV健康运行同时累计旧聊天。",
+    "watch_next": "先只读对照两lane的本机managed、项目实际全部聊天ID及worker.chat_retired日志；禁止盲删或热重启。",
+    "confidence": "medium",
+    "evidence_refs": [
+      "https://github.com/Tests4gptplay/git-agent-harness/blob/main/playwright_host/worker.py",
+      "https://github.com/Tests4gptplay/git-agent-harness/blob/main/playwright_host/ui.py",
+      "https://github.com/Tests4gptplay/git-agent-harness/blob/main/tests/test_worker_retention.py",
+      "https://github.com/Tests4gptplay/git-agent-harness/issues/363"
+    ],
+    "uncertainties": [
+      "No original authenticated browser/context/HostState access in the current observer; actual stale-chat counts unknown.",
+      "Code-review potential is not proof of a live physical deletion failure.",
+      "A project total above five can be legitimate when there are separate owned lineages or preexisting unknown conversations."
+    ]
+  },
+  "non_interference": "No source CAH writes, Task/Plan/Reply changes, Runner/Host/Bridge/Chrome/Project control actions, workflows, tests, auto-watch or chat deletion. Only this standalone private Records observation.",
+  "privacy": "No personal ChatGPT conversation IDs, content, secrets or project media copied."
+}
