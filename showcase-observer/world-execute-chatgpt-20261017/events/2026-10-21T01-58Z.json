@@ -1,0 +1,96 @@
+{
+  "schema": "cah-external-showcase-observer-v1",
+  "kind": "user_requested_retrospective_reconciliation_and_current_snapshot",
+  "observed_at_utc": "2026-10-21T01:58:45Z",
+  "recorded_at_utc": "2026-10-21T02:01:00Z",
+  "task_id": "world-execute-chatgpt-showcase-20261017",
+  "source_repository": "Tests4gptplay/git-agent-harness",
+  "source_branch": "main",
+  "source_head_at_capture": "16a87827d2fd148d5a4f54bec8af3f4d4293fcdf",
+  "source_commit_time_utc": "2026-10-21T01:58:34Z",
+  "records_repository": "Tests4gptplay/chat-agent-harness-records",
+  "records_visibility": "private",
+  "previous_event_ref": "showcase-observer/world-execute-chatgpt-20261017/events/2026-10-19T10-05Z.json",
+  "coverage": "重要阶段的回溯重建，不是连续小时监控或所有主机执行与视听审查的独立复演。仅 CAH 任务，不混入 dot 自身 MV。",
+  "backfill_ref": "showcase-observer/world-execute-chatgpt-20261017/backfills/2026-10-21T01-58Z-artistic-no-go-need-user-and-programmatic-pivot.md",
+  "observed_canonical": {
+    "formal_plan_revision": 65,
+    "plan_blob_sha": "07a9a448848e6bcce0c0434c147f4066092302ad",
+    "task_contract_revision": 22,
+    "task_blob_sha": "6ce1798528a98d3610789aa7ebe1d8ce3b56f192",
+    "historical_need_user": {
+      "at_utc": "2026-10-20T18:46:55Z",
+      "commit": "c1bde11e22ae7c5aff033352843eff70443addc4",
+      "outcome": "NEED_USER",
+      "turn_signal": "need_user",
+      "formal_plan_revision": 64,
+      "task_contract_revision": 21,
+      "outcome_blob_sha": "7bd909e7c2733d052dd25328ff7f352646634569",
+      "reason": "真实材质/物体源测试技术成功，但 Planner 独立艺术否决；按 v63 预设止损条件请求具体输入或资产选择，不重新索取既有授权。"
+    },
+    "current_resume": {
+      "outcome": "CONTINUE",
+      "turn_signal": "done",
+      "outcome_blob_sha": "bf7292cc1f643662afb83c0417f886dc03721714",
+      "meaning": "本轮 Planner 回合完成，不是项目完成。",
+      "new_contract": "程序可控动画优先，旧 photo/rig 特定前置条件被替换；参考视频延后且未收到。",
+      "lane00_direction_commit": "698690ac2eccb6c6f4b14bbe4ab2ed76a46f1fad",
+      "lane01_direction_commit": "b55737c2fa98a8620ef3eb2b359934cd56300a0f",
+      "stages": [
+        "P4R-5A programmatic state/world algorithmic causality",
+        "P4R-5B controlled 2D cel/silhouette performed action"
+      ],
+      "worker_execution_or_new_video_success": "NOT_ESTABLISHED_BY_THIS_SNAPSHOT"
+    },
+    "parent_acceptance": "A1–A8 STILL OPEN; 211.906667s original song / 129 one-based cues retained"
+  },
+  "reported_not_firsthand": {
+    "progress": [
+      "P4R-0 原生 prompt 图像与正常 Runner 原字节落地成立。",
+      "P4R-1B 三联图有限源美术 GO；P4R-1C G3 十秒桥梁后果原型有限 GO。",
+      "音乐 cue 与五幕时钟、素材/镜头 QA 注册表已落盘。",
+      "Act I / Act II 技术章节真实产出；不等于整片艺术通过。",
+      "P4R-2E Worker 原生生图→Drive→正常 Runner→本地核验完整链路成功，用户豁免该次清理。",
+      "Act III 环境潮水与 Act II 匹配切镜等保留局部有效成果。"
+    ],
+    "negative_results": [
+      "Act II 长章节在实际视审后因静止图重复/冻结被否决。",
+      "程序代理、局部形变与实拍素材拼接均有实际测试，但人物因果、世界一致性与记忆损失表达仍不足。",
+      "全曲 14 桶审计中 11 桶缺合格运动，不能用资产数量或短片冒充全曲完成。"
+    ],
+    "last_material_test": {
+      "evidence_path": "evidence/art-direction/p4r4e-g3-g2b-full-size-source-native-independent-final-ART-NO-GO.v1.json",
+      "evidence_blob_sha": "51edd9e0674d903145899f98beae90b18ae0acb4",
+      "render_success_run": 39472069892,
+      "readback_success_run": 39474197629,
+      "technical": "4×854x480 PNG + native1280x720 final + blend/manifest; six exact protected pins verified, not all154.",
+      "planner_art_judgment": "产品罐/实验台感、黑色坠物脱离因果、白枝穿出玻璃，不是内部记忆伤痕，ART_NO_GO。",
+      "not_created": "No new Act V H264/AAC or final full-song acceptance."
+    }
+  },
+  "observer_commentary": {
+    "assessment": "本次可证行为是拒绝将技术成功的弱画面冒充艺术完成，停止当前路线并具体求助；不是项目放弃，也不能证明某种能力首次诞生。",
+    "architecture": "源图/传输/技术/局部艺术/整片艺术分别验收有价值；多轮相近试验后才转向也应记作成本。旧写实媒介前提可能过窄，rev22 正式打开程序动画方向。",
+    "watch_next": "后续若继续观察，核验两路实际原曲短片、人物或图形表演与因果、音乐/情绪、实际视听质量，再决定扩至全曲。不因并行或可编程提前判成功。",
+    "confidence": "Canonical Task rev22 / Plan v65 / old NEED_USER / new CONTINUE and direction commits are directly read. Host runs, pixels, art judgments are attributed reports, not observer re-execution.",
+    "uncertainties": [
+      "未独立重播全部主机运行或逐张重新审图。",
+      "未由本次快照证明新方向 Worker 运行、影片产出或效果改善。",
+      "未闭合全曲 A1–A8 与最终清理。"
+    ],
+    "evidence_refs": [
+      "tasks/world-execute-chatgpt-showcase-20261017.plan.json",
+      "tasks/world-execute-chatgpt-showcase-20261017.json",
+      "memory/planner/world-execute-chatgpt-showcase-20261017/memory.md",
+      "state/planner_turns/world-execute-chatgpt-showcase-20261017/doorbell-3c0612c861108b435b8a8387caf81dd3/outcome.json",
+      "state/planner_turns/world-execute-chatgpt-showcase-20261017/doorbell-3a7b5e1c5c9e5513562310a72a9929fe/outcome.json"
+    ]
+  },
+  "scope_safety": {
+    "append_only": true,
+    "cold_index_changed": false,
+    "source_mutated": false,
+    "agents_woken": false,
+    "raw_media_lyrics_credentials_copied": false
+  }
+}
