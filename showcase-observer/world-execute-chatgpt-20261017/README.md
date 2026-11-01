@@ -2,7 +2,7 @@
  
 Source task: `world-execute-chatgpt-showcase-20261017`
 Source canonical Git: `Tests4gptplay/git-agent-harness`, branch `main`.
-This observer's **separate private** record destination: `Tests4gptplay/chat-agent-harness-records`, branch `main`.
+This observer's **separate** record destination: `Tests4gptplay/chat-agent-harness-records`, branch `main`.
  
 ## Purpose
 Retain read-only, externally authored evidence of the real CAH runtime during the full-song music-visualization showcase. Observe hourly, using timestamped append-only files. Verify against Git Task Cell, Planner turn outcomes, Child CL/Reply/Result, Workflow run/job/log, immutable commit refs, and specific real artifacts when necessary. Compare against the previous observation. Include genuine failures and incomplete recovery, not only success.
