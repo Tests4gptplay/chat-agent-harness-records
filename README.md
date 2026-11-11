@@ -7,3 +7,7 @@ Active orchestration state remains in `Tests4gptplay/git-agent-harness`.
 `INDEX.json` is the entry point for archived tasks. Normal CAH agents do not read this repository unless history, audit, recovery or user-requested archive work requires it.
 
 Archive data lives under `records/<task_id>/...`. The active CAH repository does not keep per-task archive pointers.
+
+## 支持项目 / Support
+
+[GitHub Sponsors](https://github.com/sponsors/Tests4gptplay) · [Ko-fi](https://ko-fi.com/kou392350) · [支付宝 / Alipay](SPONSOR.md)
