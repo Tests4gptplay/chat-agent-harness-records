@@ -34,7 +34,7 @@ Public corroborating source S03: [frozen retrospective backfill](https://github.
 
 ## B3 — Qualified outcome acceptance before retirement
 
-The Planner's 22 October (JST) final record accepted a private first draft with qualifications. Recorded technical properties were 211.900 seconds, 6,357 frames, H.264 at 960×540 and 30 fps. The acceptance record retained its quality qualifications and expressly left archive creation, terminal cleanup and user-facing presentation to subsequent responsibilities. These properties are extracted from the historical acceptance record, not newly measured media.
+The Planner's 22 October (JST) final record accepted a private first draft with qualifications. Recorded technical properties were 211.900 seconds, 6,357 frames, H.264 at 960×540 and 30 fps. The acceptance record retained its quality qualifications and left archive creation and terminal cleanup to subsequent responsibilities; any later foreground presentation depends on where the user next accesses the task. These properties are extracted from the historical acceptance record, not newly measured media.
 
 S06 acceptance-record blob: `2b1b51fd49707ac86609bf5c1c7ff3787f2f1fbf`. Original media, music, lyrics, images, project titles, paths and artifact hashes are excluded from this extract.
 
@@ -68,7 +68,7 @@ S09 selected idle-check output, UTC (verbatim lines):
 2026-10-26T15:32:31.5470613Z CAH_ISSUE409_IDLE_STABILITY_PASS
 ```
 
-The issue's closure report distinguishes this completed archival/idle recovery from foreground notification: notification remained CLAIMED because the foreground target was unbound. Thus task completion, archive completion, physical cleanup and user-facing delivery were four different facts. S07 is the issue and its two follow-ups; S08/S09 are separate executed Windows logs, not independent external evaluations.
+The issue's closure report also records a foreground-notification attempt still marked CLAIMED because its conversation target was unbound. This is a transport/binding observation, not a failed guaranteed result-push obligation: CAH has no fixed foreground destination. A user can submit work from ChatGPT on a mobile device while a home host executes it; canonical Git state remains available for later progress queries and result retrieval from another foreground session. Task completion, archive completion and physical cleanup remain distinct recorded facts. DSS differs by having a fixed foreground and a designed notification path. S07 is the issue and its two follow-ups; S08/S09 are separate executed Windows logs, not independent external evaluations.
 
 ## C1 — Recovery executor unavailable
 
@@ -78,7 +78,7 @@ S10 incident-record blob: `1b6321a487d3babfd909ef4e35326831b7af5ecb`.
 
 ## Reusable observations
 
-The records distinguish preserved task identity from a healthy executor, physical retry from user-directed task revision, outcome acceptance from archival/cleanup, and completed cleanup from delivered notification. The unavailable-runner incident also shows why readable durable state alone cannot ensure progress. Qualified results, failed QA and human intervention remain part of those observations.
+The records distinguish preserved task identity from a healthy executor, physical retry from user-directed task revision, and outcome acceptance from archival/cleanup. CAH's movable foreground retrieves canonical Git results on demand; an unbound foreground-notification attempt does not change canonical task completion. In contrast, DSS's fixed foreground has a designed notification responsibility. The unavailable-runner incident also shows why readable durable state alone cannot ensure progress. Qualified results, failed QA and human intervention remain part of those observations.
 
 The October dates describe a campaign and later maintenance, not ten days of uninterrupted autonomous uptime. No historical incident counts are combined with laboratory crash trials.
 
